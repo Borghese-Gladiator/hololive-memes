@@ -1,14 +1,10 @@
 {
     "translations": {
         "navMenu": {
-            "HOME": "HOME",
-            "BROWSE": "BROWSE",
-            "DASHBOARD": "DASHBOARD",
-            "PROFILE": "PROFILE",
-            "HISTORY": "HISTORY",
-            "SOCIAL": "SOCIAL",
-            "register": "Register",
-            "signIn": "Sign In"
+            "home": "HOME",
+            "hololive": "DASHBOARD",
+            "animeme": "PROFILE",
+            "history": "HISTORY"
         },
         "paragraph": "Introduction",
         "author": {

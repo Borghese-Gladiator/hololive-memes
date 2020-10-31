@@ -7,8 +7,9 @@ import { HashRouter, Route } from "react-router-dom";
 import NavigationMenu from "./components/NavigationMenu"
 // Pages
 import HomePage from './pages/HomePage';
-import BrowsePage from './pages/BrowsePage';
-import HistoryDashboard from './pages/HistoryPage'
+import HololiveMemesPage from './pages/HololiveMemesPage';
+import AnimemesPage from './pages/AnimemesPage';
+import HistoryDashboard from './pages/HistoryPage';
 // Sidebar icons
 import HomeIcon from '@material-ui/icons/Home'
 import PageviewIcon from '@material-ui/icons/Pageview';
@@ -25,9 +26,10 @@ function App(props) {
   }
 
   const navMenuRouteData = [
-    { text: t('navMenu.HOME'), link: '/', iconFunc: () => { return <HomeIcon /> } },
-    { text: t('navMenu.BROWSE'), link: "/browse", iconFunc: () => { return <PageviewIcon /> } },
-    { text: t('navMenu.HISTORY'), link: "/history", iconFunc: () => { return <HistoryIcon /> } },
+    { text: t('navMenu.home'), link: '/', iconFunc: () => { return <HomeIcon fontSize="large" /> } },
+    { text: t('navMenu.hololive'), link: "/hololive", iconFunc: () => { return <PageviewIcon fontSize="large" /> } },
+    { text: t('navMenu.animeme'), link: "/animeme", iconFunc: () => { return <PageviewIcon fontSize="large" /> } },
+    { text: t('navMenu.history'), link: "/history", iconFunc: () => { return <HistoryIcon fontSize="large" /> } },
   ]
   
   return (
@@ -41,7 +43,8 @@ function App(props) {
           signInText={t('navMenu.signIn')}
         >
           <Route exact path="/" render={(props) => <HomePage {...props} t={t} /> } />
-          <Route path="/browse" render={(props) => <BrowsePage {...props} t={t} /> } />
+          <Route path="/hololive" render={(props) => <HololiveMemesPage {...props} t={t} /> } />
+          <Route path="/animeme" render={(props) => <AnimemesPage {...props} t={t} /> } />
           <Route path="/history" render={(props) => <HistoryDashboard {...props} t={t} /> } />
         </NavigationMenu>
       </div>
