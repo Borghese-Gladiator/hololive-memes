@@ -8,10 +8,27 @@ import Typography from '@material-ui/core/Typography';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import MyBackgroundImg from './opacity-70-food-background.png'
 // Custom component & data
-import FeatureRoles from '../../components/FeatureRoles'
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
-import { homeIconLabelList, aboutRolesData } from '../../constants/homeConstants'
+
+const homeContactData = [
+  {
+    label: "+123 999 999 999",
+    icon: () => { return <PhoneIcon style={{fontSize: 80}} /> },
+  },
+  {
+    label: "+101 999 999 999",
+    icon: () => { return <PrintIcon style={{fontSize: 80}} /> },
+  },
+  {
+    label: "+info@tasteperfect.org",
+    icon: () => { return <MailIcon style={{fontSize: 80}} /> },
+  },
+  {
+    label: "Chuo City, Tokyo, JP",
+    icon: () => { return <RoomIcon style={{fontSize: 80}} /> },
+  },
+];
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
@@ -30,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function HomePage(props) {
-  const { id } = props
+  const { id } = props;
   const classes = useStyles();
   const mobile = false
 
@@ -96,17 +113,11 @@ export default function HomePage(props) {
           <h3 align="right" style={{ paddingRight: '50px' }}>- Vizzini{'   '}</h3>
         </Container>
       </div>
-      <div>
-        <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-          Features
-        </Typography>
-        <FeatureRoles aboutRolesData={aboutRolesData} />
-      </div>
       <Container>
         <Typography component="h3" variant="h3" align="center" color="textPrimary">
           CONTACT US
         </Typography>
-        <IconLabelCardList iconLabelList={homeIconLabelList} />
+        <IconLabelCardList iconLabelList={homeContactData} />
         <ContactForm />
       </Container>
     </div>
