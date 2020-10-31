@@ -10,6 +10,11 @@ import MyBackgroundImg from './opacity-70-food-background.png'
 // Custom component & data
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
+// HomeContactData icons
+import PhoneIcon from '@material-ui/icons/Phone';
+import PrintIcon from '@material-ui/icons/Print';
+import MailIcon from '@material-ui/icons/Mail';
+import RoomIcon from '@material-ui/icons/Room';
 
 const homeContactData = [
   {
