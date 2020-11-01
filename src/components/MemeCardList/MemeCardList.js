@@ -18,20 +18,16 @@ const useStyles = makeStyles((theme) => ({
 export default function MemeCardList(props) {
   const classes = useStyles();
   const { id, memeData } = props
+  console.log(memeData)
 
   return (
     <Container id={id} className={classes.root}>
       <Grid container justify="center" spacing={1}>
         {memeData.map((obj, idx) => (
-          <Grid key={`${obj.title} ${idx}`} item xs={12} sm={6} md={4} lg={3}>
+          <Grid key={`${obj.name} ${idx}`} item xs={12} sm={6} md={4} lg={3}>
             <MemeCard
+              path={obj.path}
               name={obj.name}
-              imgPath={obj.imgPath}
-              starsNum={obj.stars}
-              tags={obj.tags}
-              ingredients={obj.ingredients}
-              desc={obj.desc}
-              user={obj.user}
               style={{background: "#fff"}}
             />
           </Grid>

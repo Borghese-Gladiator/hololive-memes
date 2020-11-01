@@ -13,6 +13,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MemeCard(props) {
+  const { name, path } = props;
+  // Formats name to only include filename & remove underscores globally
+  // https://dmitripavlutin.com/replace-all-string-occurrences-javascript/
+  const formattedName = name.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
+  
   const classes = useStyles();
   const handleCardClick = () => {
     // https://stackoverflow.com/questions/11401897/get-the-current-domain-name-with-javascript-not-the-path-etc
@@ -23,7 +28,7 @@ export default function MemeCard(props) {
   return (
     <Card className={classes.root}>
       <CardActionArea onClick={handleCardClick}>
-        <img src={props.path} alt="loading..." className={classes.gifStyle} />
+        <img src={path} alt="loading..." className={classes.gifStyle} />
       </CardActionArea>
     </Card>
   )
