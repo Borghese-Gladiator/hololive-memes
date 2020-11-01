@@ -10,6 +10,9 @@ import HomePage from './pages/HomePage';
 import HololiveMemesPage from './pages/HololiveMemesPage';
 import AnimemesPage from './pages/AnimemesPage';
 import HistoryDashboard from './pages/HistoryPage';
+import SigninPage from './pages/SigninPage';
+import RegisterPage from './pages/RegisterPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 // Sidebar icons
 import HomeIcon from '@material-ui/icons/Home'
 import HistoryIcon from '@material-ui/icons/History';
