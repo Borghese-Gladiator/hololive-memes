@@ -47,6 +47,9 @@ function App(props) {
           <Route path="/hololive" render={(props) => <HololiveMemesPage {...props} t={t} /> } />
           <Route path="/animeme" render={(props) => <AnimemesPage {...props} t={t} /> } />
           <Route path="/history" render={(props) => <HistoryDashboard {...props} t={t} /> } />
+          <Route path="/signin" render={(props) => <SigninPage {...props} t={t} /> } />
+          <Route path="/register" render={(props) => <RegisterPage {...props} t={t} /> } />
+          <Route path="/forgotpassword" render={(props) => <ForgotPasswordPage {...props} t={t} /> } />
         </NavigationMenu>
       </div>
     </HashRouter>
