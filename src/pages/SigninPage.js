@@ -59,6 +59,7 @@ export default function SignIn() {
   // 100vh, so height of browser page is filled with background
   return (
     <Container component="main" maxWidth="xs" style={{height: "100vh"}}>
+      <CssBaseline />
       <Paper className={classes.wrapper}>
         <div className={classes.formContainer}>
           <Avatar className={classes.avatar}>
