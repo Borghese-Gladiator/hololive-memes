@@ -15,7 +15,6 @@ export default function HololiveMemesPage(props) {
       return arr;
     }, []);
   })(require.context('../memes/hololive', true, /\.(png|gif|ico|jpg|jpeg)$/));
-  console.log(allMemeFiles);
 
   return (
     <Container>
