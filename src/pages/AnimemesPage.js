@@ -15,7 +15,7 @@ export default function AnimemesPage(props) {
 
   return (
     <Container>
-      <h2 style={{textAlign: "center"}}>{t("browse.recipes")}</h2>
+      <h2 style={{textAlign: "center"}}>{t("animemes.title")}</h2>
       <MemeCardList memeData={allMemeFiles} />
     </Container>
   )

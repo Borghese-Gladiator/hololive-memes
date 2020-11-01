@@ -12,10 +12,11 @@ import AnimemesPage from './pages/AnimemesPage';
 import HistoryDashboard from './pages/HistoryPage';
 // Sidebar icons
 import HomeIcon from '@material-ui/icons/Home'
-import PageviewIcon from '@material-ui/icons/Pageview';
 import HistoryIcon from '@material-ui/icons/History';
 // load icons here
 import logo from './logo.svg';
+import AnimeImage from './anime-logo.png'
+import HololiveLogo from './Screenshot 2020-10-31 220653.jpg'
 
 function App(props) {
   // custom hook to call i18n changeLanguage function
@@ -27,8 +28,8 @@ function App(props) {
 
   const navMenuRouteData = [
     { text: t('navMenu.home'), link: '/', iconFunc: () => { return <HomeIcon fontSize="large" /> } },
-    { text: t('navMenu.hololive'), link: "/hololive", iconFunc: () => { return <PageviewIcon fontSize="large" /> } },
-    { text: t('navMenu.animeme'), link: "/animeme", iconFunc: () => { return <PageviewIcon fontSize="large" /> } },
+    { text: t('navMenu.hololive'), link: "/hololive", iconFunc: () => { return <img src={HololiveLogo} style={{height:"35px", width: "35px"}} alt="Hololive Logo" /> } },
+    { text: t('navMenu.animeme'), link: "/animeme", iconFunc: () => { return <img src={AnimeImage} style={{height:"35px", width: "35px"}} alt="Anime Pic Logo" /> } },
     { text: t('navMenu.history'), link: "/history", iconFunc: () => { return <HistoryIcon fontSize="large" /> } },
   ]
   

@@ -1,10 +1,18 @@
 {
     "translations": {
         "navMenu": {
+            "register": "REGISTER",
+            "signIn": "SIGN IN",
             "home": "HOME",
-            "hololive": "DASHBOARD",
-            "animeme": "PROFILE",
+            "hololive": "HOLOLIVE MEMES",
+            "animeme": "ANIMEMES",
             "history": "HISTORY"
+        },
+        "animemes": {
+            "title": "ANIMEMES"
+        },
+        "hololive": {
+            "title": "HOLOLIVE MEMES"
         },
         "paragraph": "Introduction",
         "author": {
