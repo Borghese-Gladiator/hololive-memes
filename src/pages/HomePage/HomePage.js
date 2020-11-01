@@ -58,15 +58,15 @@ export default function HomePage(props) {
 
   const [registerArrowShown, setRegisterArrowShown] = useState(false);
   const [signInArrowShown, setSignInArrowShown] = useState(false);
-  const registerButton = registerArrowShown ? <>Register <ArrowRightAltIcon /></> : <>Register</>
-  const signInButton = signInArrowShown ? <>Sign In <ArrowRightAltIcon /></> : <>Sign In</>
+  const registerButton = registerArrowShown ? <>Hololive <ArrowRightAltIcon /></> : <>Hololive</>
+  const signInButton = signInArrowShown ? <>Animemes <ArrowRightAltIcon /></> : <>Animemes</>
 
   return (
     <div id={id}>
       <div className={classes.heroContent} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
         <Container maxWidth="sm">
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-            Share Recipes with Friends 
+            Share Memes
           </Typography>
           <div className={classes.heroButtons}>
             <Grid container spacing={2} justify="center">
