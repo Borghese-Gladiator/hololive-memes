@@ -18,7 +18,7 @@ export default function HololiveMemesPage(props) {
 
   return (
     <Container>
-      <h2 style={{textAlign: "center"}}>{t("hololive.title")}</h2>
+      <h2 style={{textAlign: "center"}}>{t("animemes.title")}</h2>
       <MemeCardList memeData={allMemeFiles} />
     </Container>
   )
