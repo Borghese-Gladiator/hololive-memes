@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 // Material UI components
 import { Link } from '@material-ui/core';
 
-export default function ButtonLink(props) {
+export default function LabelledLink(props) {
   const { primary, to } = props;
 
   const renderLink = React.useMemo(
@@ -19,7 +19,7 @@ export default function ButtonLink(props) {
   );
 }
 
-ButtonLink.propTypes = {
+LabelledLink.propTypes = {
   primary: PropTypes.string.isRequired,
   to: PropTypes.string.isRequired,
 };
