@@ -30,8 +30,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignUp() {
+export default function ContactForm(props) {
   const classes = useStyles();
+  const { messageTitle, firstNameText, lastNameText, emailText, messageText, messageButtonText } = props;
 
   return (
     <Container component="main" maxWidth="xs">
@@ -40,7 +41,7 @@ export default function SignUp() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Message Us
+          {messageTitle}
         </Typography>
         <form className={classes.form} noValidate>
           <Grid container spacing={2}>
@@ -52,7 +53,7 @@ export default function SignUp() {
                 required
                 fullWidth
                 id="firstName"
-                label="First Name"
+                label={firstNameText}
                 autoFocus
               />
             </Grid>
@@ -62,7 +63,7 @@ export default function SignUp() {
                 required
                 fullWidth
                 id="lastName"
-                label="Last Name"
+                label={lastNameText}
                 name="lastName"
                 autoComplete="lname"
               />
@@ -73,7 +74,7 @@ export default function SignUp() {
                 required
                 fullWidth
                 id="email"
-                label="Email Address"
+                label={emailText}
                 name="email"
                 autoComplete="email"
               />
@@ -86,14 +87,7 @@ export default function SignUp() {
                 multiline
                 rows={4}
                 id="outlined-multiline-static"
-                label="Message"
-                defaultValue="Dear TastePerfect, *"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <FormControlLabel
-                control={<Checkbox value="allowExtraEmails" color="primary" />}
-                label="I want to receive inspiration, marketing promotions and updates via email."
+                label={messageText}
               />
             </Grid>
           </Grid>
@@ -104,7 +98,7 @@ export default function SignUp() {
             color="primary"
             className={classes.submit}
           >
-            Send Message
+            {messageButtonText}
           </Button>
         </form>
       </div>

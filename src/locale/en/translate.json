@@ -8,20 +8,25 @@
             "animeme": "ANIMEMES",
             "history": "HISTORY"
         },
+        "home": {
+            "landing": "Hololive Meme Database",
+            "landingHololiveButton": "Hololive",
+            "landingAnimemeButton": "Animemes",
+            "landingQuote": "\"Words are memes that can be pronounced\"",
+            "landingQuoteAuthor": "Shameless Plagiarizer",
+            "contactTitle": "CONTACT US",
+            "messageTitle": "Message Us",
+            "messageFirstName": "First Name",
+            "messageLastName": "Last Name",
+            "messageEmail": "Email Address",
+            "messageText": "Message",
+            "messageButtonText": "Send Message"
+        },
         "animemes": {
             "title": "ANIMEMES"
         },
         "hololive": {
             "title": "HOLOLIVE MEMES"
-        },
-        "paragraph": "Introduction",
-        "author": {
-            "title": "Author Name",
-            "value": "Tariqul"
-        },
-        "description": {
-            "title": "description",
-            "value": "Whenever I smell strong tobacco smoke when I'm in an enclosed space such as a room, train, or aircraft, I begin to get angry. There are several reasons. First, medical researchers have shown that secondhand smoke, that is, the smoke from other people's cigarettes, causes cancer and other health problems. If the smoke were car exhaust or burning trash, we would put out the fire and open the windows to get rid of the smoke. Second, it stinks. The smoke drifts away from the smoker and fills the room."
         }
     }
 }

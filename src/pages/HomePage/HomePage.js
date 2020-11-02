@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import MyBackgroundImg from './opacity-70-food-background.png'
+import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
@@ -36,11 +36,11 @@ const homeContactData = [
 ];
 
 const useStyles = makeStyles((theme) => ({
-  heroContent: {
-    padding: theme.spacing(25, 0, 60),
+  landingRoot: {
+    padding: theme.spacing(25, 0, 55),
   },
-  heroButtons: {
-    marginTop: theme.spacing(4),
+  landingText: {
+    paddingRight: theme.spacing(50)
   },
   primaryButton: {
     color: "white",
@@ -52,23 +52,23 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function HomePage(props) {
-  const { id } = props;
+  const { t, id } = props;
   const classes = useStyles();
   const mobile = false
 
   const [registerArrowShown, setRegisterArrowShown] = useState(false);
   const [signInArrowShown, setSignInArrowShown] = useState(false);
-  const registerButton = registerArrowShown ? <>Hololive <ArrowRightAltIcon /></> : <>Hololive</>
-  const signInButton = signInArrowShown ? <>Animemes <ArrowRightAltIcon /></> : <>Animemes</>
+  const registerButton = registerArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
+  const signInButton = signInArrowShown ? <>{t("home.landingAnimemeButton")} <ArrowRightAltIcon /></> : <>{t("home.landingAnimemeButton")}</>
 
   return (
     <div id={id}>
-      <div className={classes.heroContent} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
-        <Container maxWidth="sm">
+      <div className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
+        <div maxWidth="sm" className={classes.landingText}>
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-            Share Memes
+            {t("home.landing")}
           </Typography>
-          <div className={classes.heroButtons}>
+          <div className={classes.landingButtons}>
             <Grid container spacing={2} justify="center">
               <Grid item>
                 <Button
@@ -103,8 +103,6 @@ export default function HomePage(props) {
               </Grid>
             </Grid>
           </div>
-        </Container>
-        <Container>
           <h3
             align="center"
             style={{
@@ -113,17 +111,28 @@ export default function HomePage(props) {
               marginTop: mobile ? '0.5em' : '1.5em',
             }}
           >
-            "Food is the ingredient that binds us together."
+            {t("home.landingQuote")}
           </h3>
-          <h3 align="right" style={{ paddingRight: '50px' }}>- Vizzini{'   '}</h3>
-        </Container>
+          <h3 align="right" style={{ paddingRight: '50px' }}>- {t("home.landingQuoteAuthor")}</h3>
+        </div>
       </div>
+      <br />
+      <br />
       <Container>
         <Typography component="h3" variant="h3" align="center" color="textPrimary">
-          CONTACT US
+          {t("home.contactTitle")}
         </Typography>
+        <br />
+        <br />
         <IconLabelCardList iconLabelList={homeContactData} />
-        <ContactForm />
+        <ContactForm
+          messageTitle={t("home.messageTitle")}
+          firstNameText={t("home.messageFirstName")}
+          lastNameText={t("home.messageLastName")}
+          emailText={t("home.messageEmail")}
+          messageText={t("home.messageText")}
+          messageButtonText={t("home.messageButtonText")}
+        />
       </Container>
     </div>
   );
