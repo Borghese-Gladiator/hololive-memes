@@ -5,7 +5,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 400,
+    maxWidth: 800,
   },
   gifStyle: {
     maxHeight: 498
