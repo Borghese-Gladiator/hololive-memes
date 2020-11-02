@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
-import { CustomLink, ButtonAndIconLink, LabelledLink } from '../../components/CustomLinks'
+import { CustomLink } from '../../components/CustomLinks'
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
 // HomeContactData icons
@@ -16,7 +16,6 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import PrintIcon from '@material-ui/icons/Print';
 import MailIcon from '@material-ui/icons/Mail';
 import RoomIcon from '@material-ui/icons/Room';
-import { ButtonBase } from '@material-ui/core';
 
 const homeContactData = [
   {

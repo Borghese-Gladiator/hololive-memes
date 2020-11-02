@@ -13,10 +13,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MemeCard(props) {
-  const { name, path } = props;
+  const { path } = props;
+  // const { name } = props;
   // Formats name to only include filename & remove underscores globally
   // https://dmitripavlutin.com/replace-all-string-occurrences-javascript/
-  const formattedName = name.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
+  // const formattedName = name.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   
   const classes = useStyles();
   const handleCardClick = () => {
