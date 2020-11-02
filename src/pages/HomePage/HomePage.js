@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
+import { CustomLink, ButtonAndIconLink, LabelledLink } from '../../components/CustomLinks'
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
 // HomeContactData icons
@@ -15,6 +16,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import PrintIcon from '@material-ui/icons/Print';
 import MailIcon from '@material-ui/icons/Mail';
 import RoomIcon from '@material-ui/icons/Room';
+import { ButtonBase } from '@material-ui/core';
 
 const homeContactData = [
   {
@@ -56,10 +58,10 @@ export default function HomePage(props) {
   const classes = useStyles();
   const mobile = false
 
-  const [registerArrowShown, setRegisterArrowShown] = useState(false);
-  const [signInArrowShown, setSignInArrowShown] = useState(false);
-  const registerButton = registerArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
-  const signInButton = signInArrowShown ? <>{t("home.landingAnimemeButton")} <ArrowRightAltIcon /></> : <>{t("home.landingAnimemeButton")}</>
+  const [hololiveArrowShown, setHololiveArrowShown] = useState(false);
+  const [animemeButtonShown, setAnimemeButtonShown] = useState(false);
+  const hololiveButton = hololiveArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
+  const animemeButton = animemeButtonShown ? <>{t("home.landingAnimemeButton")} <ArrowRightAltIcon /></> : <>{t("home.landingAnimemeButton")}</>
 
   return (
     <div id={id}>
@@ -71,35 +73,36 @@ export default function HomePage(props) {
           <div className={classes.landingButtons}>
             <Grid container spacing={2} justify="center">
               <Grid item>
-                <Button
-                  component="a"
-                  className={classes.primaryButton}
-                  variant="contained"
-                  color="primary"
-                  href="https://github.com/Borghese-Gladiator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-
-                  onMouseEnter={() => setRegisterArrowShown(true)}
-                  onMouseLeave={() => setRegisterArrowShown(false)}
+                <CustomLink
+                  ariaLabel="Hololive Link"
+                  to="/hololive"
                 >
-                  {registerButton}
-                </Button>
+                  <Button
+                    className={classes.primaryButton}
+                    variant="contained"
+                    color="primary"
+                    onMouseEnter={() => setHololiveArrowShown(true)}
+                    onMouseLeave={() => setHololiveArrowShown(false)}
+                  >
+                    {hololiveButton}
+                  </Button>
+                </CustomLink>
               </Grid>
               <Grid item>
-                <Button
-                  component="a"
-                  className={classes.primaryButton}
-                  variant="outlined"
-                  color="primary"
-                  href="https://github.com/Borghese-Gladiator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onMouseEnter={() => setSignInArrowShown(true)}
-                  onMouseLeave={() => setSignInArrowShown(false)}
+                <CustomLink
+                  ariaLabel="Animemes Link"
+                  to="/animeme"
                 >
-                  {signInButton}
-                </Button>
+                  <Button
+                    className={classes.primaryButton}
+                    variant="contained"
+                    color="primary"
+                    onMouseEnter={() => setAnimemeButtonShown(true)}
+                    onMouseLeave={() => setAnimemeButtonShown(false)}
+                  >
+                    {animemeButton}
+                  </Button>
+                </CustomLink>
               </Grid>
             </Grid>
           </div>
