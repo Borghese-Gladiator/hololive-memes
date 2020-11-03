@@ -1,23 +1,54 @@
 {
     "translations": {
         "navMenu": {
-            "HOME": "HOME",
-            "BROWSE": "BROWSE",
-            "DASHBOARD": "DASHBOARD",
-            "PROFILE": "PROFILE",
-            "HISTORY": "HISTORY",
-            "SOCIAL": "SOCIAL",
-            "register": "Register",
-            "signIn": "Sign In"
+            "register": "INSCRIBIR",
+            "signIn": "REGISTRARSE",
+            "home": "INICIO",
+            "hololive": "HOLOLIVE MEMES",
+            "animeme": "ANIMEMES",
+            "history": "HISTORIA"
         },
-        "paragraph": "Introduction",
-        "author": {
-            "title": "Author Name",
-            "value": "Tariqul"
+        "home": {
+            "landing": "HoloMeme",
+            "landingHololiveButton": "Hololive",
+            "landingAnimemeButton": "Animemes",
+            "landingQuote": "\"Words are memes that can be pronounced\"",
+            "landingQuoteAuthor": "Shameless Plagiarizer",
+            "contactTitle": "CONTACTARNOS",
+            "messageTitle": "Mensaje",
+            "messageFirstName": "Nombre de Pila",
+            "messageLastName": "Apellido",
+            "messageEmail": "Email",
+            "messageText": "Mensaje",
+            "messageButtonText": "Envia Mensaje"
         },
-        "description": {
-            "title": "description",
-            "value": "Whenever I smell strong tobacco smoke when I'm in an enclosed space such as a room, train, or aircraft, I begin to get angry. There are several reasons. First, medical researchers have shown that secondhand smoke, that is, the smoke from other people's cigarettes, causes cancer and other health problems. If the smoke were car exhaust or burning trash, we would put out the fire and open the windows to get rid of the smoke. Second, it stinks. The smoke drifts away from the smoker and fills the room."
+        "forgotPassword": {
+            "title": "Recupera contraseña",
+            "email": "Email",
+            "submit": "Envia"
+        },
+        "register": {
+            "title": "Registro",
+            "email": "Email",
+            "password": "Contraseña",
+            "registerButton": "Registro",
+            "forgotPass": "Se te olvidó tu contraseña?",
+            "haveAcctText": "¿Tiene una cuenta? Inicia sesión"
+        },
+        "signin": {
+            "title": "Identifícate",
+            "email": "Email",
+            "password": "Contraseña",
+            "rememberMe": "Remember me",
+            "signInButton": "Identifícate",
+            "forgotPass": "Se te olvidó tu contraseña?",
+            "noAccountText": "¿No tiene una cuenta? Registra aquí"
+        },
+        "animemes": {
+            "title": "ANIMEMES"
+        },
+        "hololive": {
+            "title": "HOLOLIVE MEMES"
         }
     }
 }
