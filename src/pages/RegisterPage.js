@@ -53,8 +53,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignIn() {
+export default function RegisterPage(props) {
   const classes = useStyles();
+  const { t } = props;
 
   // 100vh, so height of browser page is filled with background
   return (
@@ -66,7 +67,7 @@ export default function SignIn() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Register
+          {t("register.title")}
         </Typography>
         <form className={classes.form} noValidate>
           <TextField
@@ -75,7 +76,7 @@ export default function SignIn() {
             required
             fullWidth
             id="email"
-            label="Email Address"
+            label={t("register.email")}
             name="email"
             autoComplete="email"
             autoFocus
@@ -86,14 +87,10 @@ export default function SignIn() {
             required
             fullWidth
             name="password"
-            label="Password"
+            label={t("register.password")}
             type="password"
             id="password"
             autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
           />
           <Button
             type="submit"
@@ -102,19 +99,19 @@ export default function SignIn() {
             color="primary"
             className={classes.submit}
           >
-            Register
+            {t("register.registerButton")}
           </Button>
           <Grid container>
             <Grid item xs>
               <LabelledLink
                 to="/forgotpassword"
-                primary="Forgot password?"
+                primary={t("register.forgotPass")}
               />
             </Grid>
             <Grid item>
               <LabelledLink
                 to="/signin"
-                primary="Have an account? Log In"
+                primary={t("register.haveAcctText")}
               />
             </Grid>
           </Grid>

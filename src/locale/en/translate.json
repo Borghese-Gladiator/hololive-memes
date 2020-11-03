@@ -31,6 +31,9 @@
             "title": "Register",
             "email": "Email Address",
             "password": "Password",
+            "registerButton": "register",
+            "forgotPass": "Forgot Password?",
+            "haveAcctText": "Have an account? Log In"
         },
         "signin": {
             "title": "Sign In",
