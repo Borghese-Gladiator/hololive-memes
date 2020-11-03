@@ -72,7 +72,7 @@ export default function ForgotPasswordPage(props) {
             required
             fullWidth
             id="email"
-            label={t("forgotPassword.emailAddress")}
+            label={t("forgotPassword.email")}
             name="email"
             autoComplete="email"
             autoFocus

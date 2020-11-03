@@ -24,11 +24,13 @@
         },
         "forgotPassword": {
             "title": "Recover Password",
-            "emailAddress": "Email Address",
+            "email": "Email Address",
             "submit": "Submit"
         },
         "register": {
-            "title": "BLAH"
+            "title": "Register",
+            "email": "Email Address",
+            "password": "Password",
         },
         "signin": {
             "title": "Sign In",
