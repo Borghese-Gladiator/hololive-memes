@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import MyBackgroundImg from './coco-meme-review.png'
+import MyBackgroundImg from './coco-asacoco.png'
 // Custom component & data
 import { CustomLink } from '../../components/CustomLinks'
 import IconLabelCardList from '../../components/IconLabelCardList'
