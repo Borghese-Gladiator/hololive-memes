@@ -20,7 +20,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        TastePerfect
+        HoloMemes
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -53,8 +53,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignIn() {
+export default function SignIn(props) {
   const classes = useStyles();
+  const { t } = props;
 
   // 100vh, so height of browser page is filled with background
   return (
@@ -66,7 +67,7 @@ export default function SignIn() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in
+            {t("signin.title")}
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
@@ -75,7 +76,7 @@ export default function SignIn() {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label={t("signin.email")}
               name="email"
               autoComplete="email"
               autoFocus
@@ -86,14 +87,14 @@ export default function SignIn() {
               required
               fullWidth
               name="password"
-              label="Password"
+              label={t("signin.password")}
               type="password"
               id="password"
               autoComplete="current-password"
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
+              label={t("signin.rememberMe")}
             />
             <Button
               type="submit"
@@ -102,19 +103,19 @@ export default function SignIn() {
               color="primary"
               className={classes.submit}
             >
-              Sign In
+              {t("signin.signInButton")}
             </Button>
             <Grid container>
               <Grid item xs>
                 <LabelledLink
                   to="/forgotpassword"
-                  primary="Forgot password?"
+                  primary={t("signin.forgotPass")}
                 />
               </Grid>
               <Grid item>
                 <LabelledLink
                   to="/signin"
-                  primary="Don't have an account? Sign Up"
+                  primary={t("signin.noAccountText")}
                 />
               </Grid>
             </Grid>
