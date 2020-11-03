@@ -22,8 +22,8 @@
             "messageText": "Message",
             "messageButtonText": "Send Message"
         },
-        "forgotpassword": {
-            "title": "Forgot Password",
+        "forgotPassword": {
+            "title": "Recover Password",
             "emailAddress": "Email Address",
             "submit": "Submit"
         },
