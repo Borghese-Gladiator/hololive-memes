@@ -1,23 +1,53 @@
 {
     "translations": {
         "navMenu": {
-            "HOME": "家",
-            "BROWSE": "找",
-            "DASHBOARD": "DASHBOARD",
-            "PROFILE": "PROFILE",
-            "HISTORY": "HISTORY",
-            "SOCIAL": "SOCIAL",
-            "register": "Register",
-            "signIn": "Sign In"
+            "register": "注册",
+            "signIn": "登入",
+            "home": "首页",
+            "hololive": "HOLOLIVE MEMES",
+            "animeme": "ANIMEMES",
+            "history": "最近浏览过的"
         },
-        "paragraph": "Introduction",
-        "author": {
-            "title": "Author Name",
-            "value": "Tariqul"
+        "home": {
+            "landing": "HoloMeme",
+            "landingHololiveButton": "Hololive",
+            "landingAnimemeButton": "Animemes",
+            "landingQuote": "\"Words are memes that can be pronounced\"",
+            "landingQuoteAuthor": "Shameless Plagiarizer",
+            "contactTitle": "联络我们",
+            "messageTitle": "联络我们",
+            "messageName": "名字",
+            "messageEmail": "电子信箱",
+            "messageText": "信息",
+            "messageButtonText": "发信息"
         },
-        "description": {
-            "title": "description",
-            "value": "Whenever I smell strong tobacco smoke when I'm in an enclosed space such as a room, train, or aircraft, I begin to get angry. There are several reasons. First, medical researchers have shown that secondhand smoke, that is, the smoke from other people's cigarettes, causes cancer and other health problems. If the smoke were car exhaust or burning trash, we would put out the fire and open the windows to get rid of the smoke. Second, it stinks. The smoke drifts away from the smoker and fills the room."
+        "forgotPassword": {
+            "title": "申请一个新的密码",
+            "email": "电子信箱",
+            "submit": "发送"
+        },
+        "register": {
+            "title": "注册",
+            "email": "电子信箱",
+            "password": "密码",
+            "registerButton": "注册",
+            "forgotPass": "忘记密码?",
+            "haveAcctText": "有帐号？ 请登录"
+        },
+        "signin": {
+            "title": "登入",
+            "email": "电子信箱",
+            "password": "密码",
+            "rememberMe": "记得我",
+            "signInButton": "登入",
+            "forgotPass": "忘了密码?",
+            "noAccountText": "没有帐号？ 请注册?"
+        },
+        "animemes": {
+            "title": "ANIMEMES"
+        },
+        "hololive": {
+            "title": "HOLOLIVE MEMES"
         }
     }
 }
