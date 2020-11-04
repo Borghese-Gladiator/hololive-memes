@@ -16,8 +16,7 @@
             "landingQuoteAuthor": "Shameless Plagiarizer",
             "contactTitle": "CONTACTARNOS",
             "messageTitle": "Mensaje",
-            "messageFirstName": "Nombre de Pila",
-            "messageLastName": "Apellido",
+            "messageName": "Nombre",
             "messageEmail": "Email",
             "messageText": "Mensaje",
             "messageButtonText": "Envia Mensaje"

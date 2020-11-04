@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ContactForm(props) {
   const classes = useStyles();
-  const { messageTitle, firstNameText, lastNameText, emailText, messageText, messageButtonText } = props;
+  const { messageTitle, nameText, emailText, messageText, messageButtonText } = props;
 
   return (
     <Container component="main" maxWidth="xs">
@@ -43,27 +43,16 @@ export default function ContactForm(props) {
         </Typography>
         <form className={classes.form} noValidate>
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12}>
               <TextField
-                autoComplete="fname"
-                name="firstName"
+                autoComplete="name"
+                name="name"
                 variant="outlined"
                 required
                 fullWidth
-                id="firstName"
-                label={firstNameText}
+                id="name"
+                label={nameText}
                 autoFocus
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                id="lastName"
-                label={lastNameText}
-                name="lastName"
-                autoComplete="lname"
               />
             </Grid>
             <Grid item xs={12}>

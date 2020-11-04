@@ -129,8 +129,7 @@ export default function HomePage(props) {
         <IconLabelCardList iconLabelList={homeContactData} />
         <ContactForm
           messageTitle={t("home.messageTitle")}
-          firstNameText={t("home.messageFirstName")}
-          lastNameText={t("home.messageLastName")}
+          nameText={t("home.messageName")}
           emailText={t("home.messageEmail")}
           messageText={t("home.messageText")}
           messageButtonText={t("home.messageButtonText")}

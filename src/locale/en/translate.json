@@ -16,8 +16,7 @@
             "landingQuoteAuthor": "Shameless Plagiarizer",
             "contactTitle": "CONTACT US",
             "messageTitle": "Message Us",
-            "messageFirstName": "First Name",
-            "messageLastName": "Last Name",
+            "messageName": "Name",
             "messageEmail": "Email Address",
             "messageText": "Message",
             "messageButtonText": "Send Message"
