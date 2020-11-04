@@ -17,7 +17,7 @@ import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import HomeIcon from '@material-ui/icons/Home'
 import HistoryIcon from '@material-ui/icons/History';
 // load icons here
-import logo from './logo.svg';
+import logo from './WhiteHoloMemesLogo.png';
 import AnimeImage from './anime-logo.png'
 import HololiveLogo from './Screenshot 2020-10-31 220653.jpg'
 
