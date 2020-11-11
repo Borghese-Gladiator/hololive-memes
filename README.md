@@ -23,7 +23,7 @@ HoloMemes
 Found shitpost resources (gif/jpg/png) from:
 - Hololive Reddit: [https://www.reddit.com/r/Hololive/](https://www.reddit.com/r/Hololive/)
 - Hololive Twitter: [https://twitter.com/hololive_En](https://twitter.com/hololive_En)
-- Hololive Youtube channel: (https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg)[https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg]
+- Hololive Youtube channel: [https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg](https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg)
 - Tenor (search for Hololive): [https://tenor.com/search/hololive-gifs](https://tenor.com/search/hololive-gifs)
 
 ## Features
