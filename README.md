@@ -39,6 +39,7 @@ HoloMemes is licensed under the terms of the MIT license and is available for fr
 
 ## Setup Dev Environment
 Technologies Used: **React, Material UI (for components & styling), React Router, i18next (multi-lang support)**
+
 Since this project was set up with create-react-app, reference the docs below to get started.
 `cd src`
 `npm install && npm start`
