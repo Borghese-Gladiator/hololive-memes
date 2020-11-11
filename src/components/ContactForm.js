@@ -52,7 +52,6 @@ export default function ContactForm(props) {
                 fullWidth
                 id="name"
                 label={nameText}
-                autoFocus
               />
             </Grid>
             <Grid item xs={12}>
