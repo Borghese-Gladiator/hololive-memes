@@ -1,5 +1,7 @@
 import React from 'react';
-import { LabelledLink } from '../components/CustomLinks';
+// use custom React Router + Material UI LInk with prop forwarding
+import CustomLink from '../components/CustomLink';
+
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -107,16 +109,14 @@ export default function SignInPage(props) {
             </Button>
             <Grid container>
               <Grid item xs>
-                <LabelledLink
-                  to="/forgotpassword"
-                  primary={t("signin.forgotPass")}
-                />
+                <CustomLink to="/forgotpassword">
+                  <Typography variant="body2">{t("signin.forgotPass")}</Typography>
+                </CustomLink>
               </Grid>
               <Grid item>
-                <LabelledLink
-                  to="/signin"
-                  primary={t("signin.noAccountText")}
-                />
+                <CustomLink to="/register">
+                  <Typography variant="body2">{t("signin.noAccountText")}</Typography>
+                </CustomLink>
               </Grid>
             </Grid>
           </form>

@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import MyBackgroundImg from './coco-asacoco.png'
 // Custom component & data
-import { CustomLink } from '../../components/CustomLinks'
+import CustomLink from '../../components/CustomLink'
 import IconLabelCardList from '../../components/IconLabelCardList'
 import ContactForm from '../../components/ContactForm'
 // HomeContactData icons
