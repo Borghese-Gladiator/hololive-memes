@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 // Prop Type checking
 import PropTypes from 'prop-types';
 // Material UI components
-import { Button } from '@material-ui/core';
+import { Link } from '@material-ui/core';
 
 export default function CustomLink(props) {
   const { ariaLabel, to } = props;
@@ -15,12 +15,13 @@ export default function CustomLink(props) {
   );
 
   return (
-    <Button 
+    <Link 
       aria-label={ariaLabel}
       component={renderLink}
+      color="inherit"
     >
       {props.children}
-    </Button>
+    </Link>
   );
 }
 
