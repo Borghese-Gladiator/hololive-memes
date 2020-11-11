@@ -9,7 +9,7 @@ HoloMemes
 
 :star: Star us on GitHub — it helps!
 
-[HoloMemes](https://aimeos.org/typo3-shop-extension) is a utility to spread the Hololive gospel (jk). Use this tool to send animemes or hololive meme reactions to your friends over Discord more easily. This is a site to collect your favorite Hololive memes, so you don't have to scroll through Reddit, Tenor, and Twitter looking for the memes you liked.
+[HoloMemes](https://aimeos.org/typo3-shop-extension) is a utility to spread the Hololive gospel (jk). Use this tool to send animemes or hololive meme reactions to your friends over Discord more easily. This is a site to collect your favorite Hololive/anime memes, so you don't have to scroll through Reddit, Tenor, and Twitter looking for the memes you liked.
 
 ## Table of Contents
 
