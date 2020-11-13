@@ -528,7 +528,7 @@ export const memePosts =  [
     datePosted: new Date("2020-11-13T00:24:28.103-05:00")
   },
   {
-    imgPath: 'memes/animemes/Screenshot 2020-11-01 004511.png',
+    imgPath: 'memes/animemes/Screenshot-2020-11-01-004511.png',
     title: 'Screenshot 2020-11-01 004511.png',
     source: '',
     tags: [ 'Hololive' ],
