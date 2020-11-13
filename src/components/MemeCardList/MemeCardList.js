@@ -26,8 +26,8 @@ export default function MemeCardList(props) {
         {memeData.map((obj, idx) => (
           <Grid key={`${obj.name} ${idx}`} item>
             <MemeCard
-              path={obj.path}
-              name={obj.name}
+              path={obj.imgPath}
+              name={obj.title}
             />
           </Grid>
         ))}
