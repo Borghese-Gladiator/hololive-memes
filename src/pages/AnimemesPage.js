@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '@material-ui/core/Container'
 import MemeCardList from '../components/MemeCardList';
-import * as allMemeFiles from '../constants/memeConstants';
+import { memePosts } from '../constants/memeConstants';
 
 export default function HololiveMemesPage(props) {
   const { t } = props
@@ -26,7 +26,7 @@ export default function HololiveMemesPage(props) {
   return (
     <Container>
       <h2 style={{textAlign: "center"}}>{t("animemes.title")}</h2>
-      <MemeCardList memeData={allMemeFiles} />
+      <MemeCardList memeData={memePosts} />
     </Container>
   )
 }
