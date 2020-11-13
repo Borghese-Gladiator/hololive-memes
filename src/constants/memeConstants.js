@@ -1,4 +1,4 @@
-export default [
+export const memePosts =  [
   {
     imgPath: 'memes/hololive/Aloe-Shamiko-Edit.gif',
     title: 'Aloe-Shamiko-Edit.gif',
