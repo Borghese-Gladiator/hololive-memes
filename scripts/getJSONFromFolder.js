@@ -24,7 +24,7 @@ Date.prototype.toJSON = function () {
   return iso + sign + leadingZero + Math.abs(timezoneOffsetInHours).toString() + ':00';
 }
 
-fs.readdirSync('../src/memes/hololive/').forEach((filename, content) => {
+fs.readdirSync('../public/memes/hololive/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
     imgPath: 'memes/hololive/' + filename,
@@ -34,13 +34,13 @@ fs.readdirSync('../src/memes/hololive/').forEach((filename, content) => {
     userPosted: "Admin_M"
   })
 });
-fs.readdirSync('../src/memes/animemes/').forEach((filename, content) => {
+fs.readdirSync('../public/memes/animemes/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
     imgPath: 'memes/animemes/' + filename,
     title: formattedName,
     source: "",
-    tags: ["Hololive"],
+    tags: ["Animemes"],
     userPosted: "Admin_M"
   })
 });
