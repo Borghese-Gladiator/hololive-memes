@@ -18,9 +18,9 @@ import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import HomeIcon from '@material-ui/icons/Home'
 import HistoryIcon from '@material-ui/icons/History';
 // load icons here
-import logo from './WhiteHoloMemesLogo.png';
-import AnimeImage from './anime-logo.png'
-import HololiveLogo from './Screenshot 2020-10-31 220653.jpg'
+import logo from './constants/img/white_holomemes_logo.png';
+import AnimeImage from './constants/img/anime_logo.png'
+import HololiveLogo from './constants/img/hololive_black_white_logo.jpg'
 
 function App(props) {
   // custom hook to call i18n changeLanguage function
