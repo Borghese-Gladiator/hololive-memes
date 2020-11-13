@@ -65,7 +65,7 @@ export default function HomePage(props) {
   return (
     <div id={id}>
       <div className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
-        <div maxWidth="sm" className={classes.landingText}>
+        <div className={classes.landingText}>
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             {t("home.landing")}
           </Typography>
