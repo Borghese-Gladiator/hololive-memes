@@ -27,7 +27,7 @@ Date.prototype.toJSON = function () {
 fs.readdirSync('../src/memes/hololive/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
-    imgPath: filename,
+    imgPath: 'hololive/' + filename,
     title: formattedName,
     source: "",
     tags: ["Hololive"],
@@ -37,7 +37,7 @@ fs.readdirSync('../src/memes/hololive/').forEach((filename, content) => {
 fs.readdirSync('../src/memes/animemes/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
-    imgPath: filename,
+    imgPath: 'animemes/' + filename,
     title: formattedName,
     source: "",
     tags: ["Hololive"],
