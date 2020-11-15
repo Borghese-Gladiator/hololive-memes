@@ -211,13 +211,7 @@ export default function PersistentDrawerLeft(props) {
               ariaLabel="sign-in"
               to="/signin"
               primary={signInText}
-              icon={<ExitToAppIcon />} 
-            />
-            <CustomButtonLink 
-              ariaLabel="register"
-              to="/register"
-              primary={registerText}
-              icon={<AssignmentIcon />} 
+              icon={<></>} 
             />
             <Divider className={classes.divider} orientation="vertical" flexItem />
             <LanguageSelector onSelectLanguage={langCallback} />
