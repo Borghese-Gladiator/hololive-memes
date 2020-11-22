@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Container from '@material-ui/core/Container'
 import MemeCardList from '../components/MemeCardList'
 import { memePosts } from '../constants/memeConstants';
@@ -21,10 +21,14 @@ export default function HololiveMemesPage(props) {
     }, []);
   })(require.context('../memes/hololive', true, /\.(png|gif|ico|jpg|jpeg)$/));
 */
+  const MemeCardList = React.lazy(() => import('../components/MemeCardList'));
+
   return (
     <Container>
       <h2 style={{textAlign: "center"}}>{t("hololive.title")}</h2>
-      <MemeCardList memeData={memePosts} />
+      <Suspense fallback={<h1>Still Loading…</h1>}>
+        <MemeCardList memeData={memePosts} />
+      </Suspense>
     </Container>
   )
 }
