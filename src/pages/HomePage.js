@@ -82,7 +82,10 @@ export default function HomePage(props) {
               {open ? (
                   <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
                     <Container>
-                      <Paper className={classes.columnFlex}>
+                      <Paper className={classes.columnFlex} style={{
+                        borderStyle: 'solid',                        
+                        boxShadow: '10px 10px 5px black'
+                      }}>
                         <Container>
                           <Typography paragraph>How to Use:</Typography>
                           <Typography paragraph>
