@@ -31,9 +31,7 @@ export default function HomePage(props) {
   const mobile = false
 
   const [hololiveArrowShown, setHololiveArrowShown] = useState(false);
-  const [animemeButtonShown, setAnimemeButtonShown] = useState(false);
   const hololiveButton = hololiveArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
-  const animemeButton = animemeButtonShown ? <>{t("home.landingAnimemeButton")} <ArrowRightAltIcon /></> : <>{t("home.landingAnimemeButton")}</>
 
   return (
     <div id={id}>
@@ -47,7 +45,7 @@ export default function HomePage(props) {
               <Grid item>
                 <CustomLink
                   ariaLabel="Hololive Link"
-                  to="/hololive"
+                  to="/memes"
                 >
                   <Button
                     className={classes.primaryButton}
@@ -57,22 +55,6 @@ export default function HomePage(props) {
                     onMouseLeave={() => setHololiveArrowShown(false)}
                   >
                     {hololiveButton}
-                  </Button>
-                </CustomLink>
-              </Grid>
-              <Grid item>
-                <CustomLink
-                  ariaLabel="Animemes Link"
-                  to="/animeme"
-                >
-                  <Button
-                    className={classes.primaryButton}
-                    variant="contained"
-                    color="primary"
-                    onMouseEnter={() => setAnimemeButtonShown(true)}
-                    onMouseLeave={() => setAnimemeButtonShown(false)}
-                  >
-                    {animemeButton}
                   </Button>
                 </CustomLink>
               </Grid>
