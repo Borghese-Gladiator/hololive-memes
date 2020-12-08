@@ -10,8 +10,8 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    paddingLeft: '5%',
-    paddingRight: '8%',
+    paddingLeft: '20%',
+    paddingRight: '20%',
   },
   flexColumn: {
     display: 'flex',
