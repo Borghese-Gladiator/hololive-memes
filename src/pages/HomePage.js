@@ -12,7 +12,7 @@ import CustomLink from '../components/CustomLink'
 
 const useStyles = makeStyles((theme) => ({
   landingRoot: {
-    padding: theme.spacing(50, 0, 50),
+    padding: theme.spacing(45, 0, 45),
     margin: theme.spacing(0, 10, 0)
   },
   landingText: {
