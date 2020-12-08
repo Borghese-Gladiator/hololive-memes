@@ -15,7 +15,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
+      <Link color="inherit" href="/">
         HoloMemes
       </Link>{' '}
       {new Date().getFullYear()}
@@ -27,7 +27,7 @@ function Copyright() {
 const useFooterStyles = makeStyles((theme) => ({
   footer: {
     // marginTop: theme.spacing(8),
-    padding: theme.spacing(40, 20,0),
+    padding: theme.spacing(20, 20,0),
   },
   listRoot: {
     display: 'flex',
