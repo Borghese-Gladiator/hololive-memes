@@ -6,13 +6,14 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import MyBackgroundImg from './maxresdefault.jpg'
+import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
 import CustomLink from '../components/CustomLink'
 
 const useStyles = makeStyles((theme) => ({
   landingRoot: {
-    padding: theme.spacing(25, 0, 55),
+    padding: theme.spacing(50, 0, 50),
+    margin: theme.spacing(0, 10, 0)
   },
   landingText: {
     paddingRight: theme.spacing(50)
@@ -36,7 +37,7 @@ export default function HomePage(props) {
 
   return (
     <div id={id}>
-      <Container className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
+      <div className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
         <div className={classes.landingButtons}>
           <Grid container spacing={2} justify="center">
             <Grid item>
@@ -57,7 +58,7 @@ export default function HomePage(props) {
             </Grid>
           </Grid>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }
