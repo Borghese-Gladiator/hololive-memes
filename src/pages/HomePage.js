@@ -6,8 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
+import Box from '@material-ui/core/Box';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import MemeImg from '../constants/img/anime_logo.png';
 import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
 import CustomLink from '../components/CustomLink'
@@ -17,8 +19,12 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(45, 0, 45),
     margin: theme.spacing(0, 10, 0)
   },
-  landingText: {
-    paddingRight: theme.spacing(50)
+  image: {
+    height: theme.spacing(10),
+    width: theme.spacing(10),
+  },
+  landingButtons: {
+    paddingRight: theme.spacing(50),
   },
   primaryButton: {
     color: "white",
@@ -58,7 +64,9 @@ export default function HomePage(props) {
   return (
     <div id={id}>
       <div className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
-        <div className={classes.landingButtons}>
+        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center"  className={classes.landingButtons}>
+          <img src={MemeImg} alt="meme above meme button" className={classes.image} />
+          <br />
           <Grid container spacing={2} justify="center">
             <Grid item>
               <Button
@@ -120,7 +128,7 @@ export default function HomePage(props) {
               </CustomLink>
             </Grid>
           </Grid>
-        </div>
+        </Box>
       </div>
     </div>
   );
