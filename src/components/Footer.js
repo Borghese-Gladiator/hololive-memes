@@ -27,7 +27,7 @@ function Copyright() {
 const useFooterStyles = makeStyles((theme) => ({
   footer: {
     // marginTop: theme.spacing(8),
-    padding: theme.spacing(20, 20,0),
+    padding: theme.spacing(40, 20, 20),
   },
   listRoot: {
     display: 'flex',
