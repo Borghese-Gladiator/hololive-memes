@@ -106,7 +106,7 @@ export default function HomePage(props) {
                             <li>See latest r/Hololive Reddit memes (coming soon!)</li>
                           </ul>
                           <Typography style={{fontWeight:"bold"}}>
-                            Keep up the shitposts people! Make Coco something can use for Meme Review.
+                            Keep up the shitposts people! Make something Coco can use for Meme Review.
                           </Typography>
                         </Container>
                       </Paper>
