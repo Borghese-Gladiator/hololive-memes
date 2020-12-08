@@ -10,8 +10,8 @@
         },
         "home": {
             "landing": "HoloMeme",
-            "landingHololiveButton": "HoloMemes",
-            "landingAnimemeButton": "Animemes",
+            "landingHololiveButton": "Memes",
+            "landingHowToUseButton": "How to Use",
             "landingQuote": "\"Words are memes that can be pronounced\"",
             "landingQuoteAuthor": "Shameless Plagiarizer",
             "contactTitle": "CONTACT US",
