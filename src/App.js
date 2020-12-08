@@ -26,26 +26,16 @@ import HistoryIcon from '@material-ui/icons/History';
 import logo from './constants/img/white_holomemes_logo.png';
 import HololiveLogo from './constants/img/hololive_black_white_logo.jpg'
 // footerContactData icons
-import PhoneIcon from '@material-ui/icons/Phone';
-import PrintIcon from '@material-ui/icons/Print';
 import MailIcon from '@material-ui/icons/Mail';
 import RoomIcon from '@material-ui/icons/Room';
 
 const footerContactData = [
   {
-    label: "+123 999 999 999",
-    icon: () => { return <PhoneIcon style={{fontSize: 30}} /> },
-  },
-  {
-    label: "+101 999 999 999",
-    icon: () => { return <PrintIcon style={{fontSize: 30}} /> },
-  },
-  {
-    label: "+info@tasteperfect.org",
+    label: "+timtimysss@hotmail.com",
     icon: () => { return <MailIcon style={{fontSize: 30}} /> },
   },
   {
-    label: "Chuo City, Tokyo, JP",
+    label: "Eastern USA (EST UTC−05:00)",
     icon: () => { return <RoomIcon style={{fontSize: 30}} /> },
   },
 ];
