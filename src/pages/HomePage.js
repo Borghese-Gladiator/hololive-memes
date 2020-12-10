@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid'
 import Button from '@material-ui/core/Button';
@@ -9,22 +10,26 @@ import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import MemeImg from '../constants/img/anime_logo.png';
+import MemeImg from './advertisement_meme.jpeg';
 import MyBackgroundImg from './coco-meme-review.png'
 // Custom component & data
 import CustomLink from '../components/CustomLink'
 
 const useStyles = makeStyles((theme) => ({
   landingRoot: {
-    padding: theme.spacing(45, 0, 45),
-    margin: theme.spacing(0, 10, 0)
+    height: theme.spacing(93),
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   image: {
-    height: theme.spacing(10),
-    width: theme.spacing(10),
+    height: theme.spacing(50),
+    width: theme.spacing(50),
   },
   landingButtons: {
-    paddingRight: theme.spacing(50),
+    paddingRight: theme.spacing(30),
+    paddingBottom: theme.spacing(30)
   },
   primaryButton: {
     color: "white",
@@ -63,8 +68,8 @@ export default function HomePage(props) {
   };
   return (
     <div id={id}>
-      <div className={classes.landingRoot} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
-        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center"  className={classes.landingButtons}>
+      <div className={clsx(classes.landingRoot, classes.columnFlex)} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
+        <Container className={clsx(classes.landingButtons, classes.columnFlex)}>
           <img src={MemeImg} alt="meme above meme button" className={classes.image} />
           <br />
           <Grid container spacing={2} justify="center">
@@ -131,7 +136,7 @@ export default function HomePage(props) {
               </CustomLink>
             </Grid>
           </Grid>
-        </Box>
+        </Container>
       </div>
     </div>
   );
