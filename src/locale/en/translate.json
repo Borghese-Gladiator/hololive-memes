@@ -43,6 +43,9 @@
             "forgotPass": "Forgot Password?",
             "noAccountText": "No account? Register here"
         },
+        "memes": {
+            "title": "MEMES"
+        },
         "animemes": {
             "title": "ANIMEMES"
         },

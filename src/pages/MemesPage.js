@@ -8,7 +8,7 @@ export default function MemesPage(props) {
 
   return (
     <Container>
-      <h2 style={{textAlign: "center"}}>{t("animemes.title")}</h2>
+      <h2 style={{textAlign: "center"}}>{t("memes.title")}</h2>
       <MemeCardList memeData={memePosts} />
     </Container>
   )
