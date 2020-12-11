@@ -7,6 +7,8 @@ import MuiAlert from '@material-ui/lab/Alert';
 import Fab from '@material-ui/core/Fab';
 // icons
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+// custom link
+import CustomLink from '../CustomLink';
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -32,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MemeCard(props) {
-  const { path } = props;
+  const { postID, path } = props;
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const gifUrl = "https://" + window.location.hostname + props.path
@@ -51,9 +53,11 @@ export default function MemeCard(props) {
 
   return (
     <Card className={classes.root}>
-      <Fab className={classes.overlay} color="primary" aria-label="add">
-        <ExitToAppIcon />
-      </Fab>
+      <CustomLink ariaLabel={`Link to ID: ${postID}`} to={`/memes/${postID}`}>
+        <Fab className={classes.overlay} color="primary" aria-label="add">
+          <ExitToAppIcon />
+        </Fab>  
+      </CustomLink>
       <CardActionArea onClick={handleClick}>
         <img src={path} alt="loading..." className={classes.media} />
       </CardActionArea>

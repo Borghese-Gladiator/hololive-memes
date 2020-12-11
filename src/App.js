@@ -11,7 +11,7 @@ import RegisterPage from './pages/RegisterPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 // public pages
 import HomePage from './pages/HomePage';
-import MemesPage from './pages/MemesPage';
+import MemesPage from './pages/memes/MemesPage';
 // protected pages
 import HistoryPage from './pages/auth/HistoryPage';
 import SavedPage from './pages/auth/SavedPage';
