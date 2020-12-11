@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     minWidth: 130,
   },
-  control: {
-    padding: theme.spacing(2),
+  marginTop: {
+    marginTop: theme.spacing(5)
   },
   rightColumnFlex: {
     display: 'flex',
@@ -84,7 +84,7 @@ export default function MemeCardList(props) {
             </Grid>
           ))}
         </Grid>
-        <Pagination count={numPages} page={pageNumber} onChange={handlePageChange} color="primary" size="large" showFirstButton showLastButton />
+        <Pagination count={numPages} page={pageNumber} onChange={handlePageChange} color="primary" size="large" showFirstButton showLastButton className={classes.marginTop} />
       </div>
     </Container>
   );
