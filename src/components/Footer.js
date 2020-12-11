@@ -52,7 +52,7 @@ export default function Footer(props) {
         className={classes.listRoot}
       >
         {iconLabelList.map((obj, idx) => (
-          <ListItem button>
+          <ListItem button key={`${obj.label} ${idx}`}>
             <ListItemIcon>
               {obj.icon()}
             </ListItemIcon>
