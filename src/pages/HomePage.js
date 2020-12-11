@@ -7,7 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
-import Box from '@material-ui/core/Box';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import MemeImg from './advertisement_meme.jpeg';
@@ -17,11 +16,7 @@ import CustomLink from '../components/CustomLink'
 
 const useStyles = makeStyles((theme) => ({
   landingRoot: {
-    height: theme.spacing(93),
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center'
+    height: theme.spacing(93)
   },
   image: {
     height: theme.spacing(50),
