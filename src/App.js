@@ -1,31 +1,27 @@
 import React from 'react'
-// Translation with i18n
-import { withTranslation } from 'react-i18next'
-// Routing
-import { HashRouter, Route } from "react-router-dom";
-// Custom components (menu: nav and sidebar)
+import { withTranslation } from 'react-i18next'; // Translation with i18n
+import { HashRouter, Route } from "react-router-dom"; // client-side routing
+// Custom components
 import AuthNavMenu from './components/NavMenu/AuthNavMenu';
 import GuestNavMenu from './components/NavMenu/GuestNavMenu';
 import Footer from './components/Footer'
-
-// public sign in pages
+// public pages - sign in relat4ed
 import SigninPage from './pages/SigninPage';
 import RegisterPage from './pages/RegisterPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
-// public Pages
+// public pages
 import HomePage from './pages/HomePage';
 import MemesPage from './pages/MemesPage';
-// protected Pages
+// protected pages
 import HistoryPage from './pages/auth/HistoryPage';
 import SavedPage from './pages/auth/SavedPage';
 
-// Sidebar icons
-import HomeIcon from '@material-ui/icons/Home'
-import HistoryIcon from '@material-ui/icons/History';
-// load icons here
 import logo from './constants/img/white_holomemes_logo.png';
-import HololiveLogo from './constants/img/hololive_black_white_logo.jpg'
-// footerContactData icons
+// sidebar icons & assets
+import HomeIcon from '@material-ui/icons/Home';
+import HistoryIcon from '@material-ui/icons/History';
+import HololiveLogo from './constants/img/hololive_black_white_logo.jpg';
+// footer icons
 import MailIcon from '@material-ui/icons/Mail';
 import RoomIcon from '@material-ui/icons/Room';
 
@@ -60,9 +56,9 @@ function App(props) {
       <HashRouter initialIndex={0}>
         <div style={{backgroundColor: "#DAE3E7"}}>
           <AuthNavMenu
-            routeData={navMenuRouteData}
             logo={logo}
             langCallback={langCallback}
+            routeData={navMenuRouteData}
           >
             <Route exact path="/" render={(props) => <HomePage {...props} t={t} /> } />
             <Route path="/memes" render={(props) => <MemesPage {...props} t={t} /> } />
@@ -82,12 +78,13 @@ function App(props) {
             langCallback={langCallback}
             registerText={t('navMenu.register')}
             signInText={t('navMenu.signIn')}
-          />
-          <Route exact path="/" render={(props) => <HomePage {...props} t={t} /> } />
-          <Route path="/memes" render={(props) => <MemesPage {...props} t={t} /> } />
-          <Route path="/signin" render={(props) => <SigninPage {...props} t={t} /> } />
-          <Route path="/register" render={(props) => <RegisterPage {...props} t={t} /> } />
-          <Route path="/forgotpassword" render={(props) => <ForgotPasswordPage {...props} t={t} /> } />
+          >
+            <Route exact path="/" render={(props) => <HomePage {...props} t={t} /> } />
+            <Route path="/memes" render={(props) => <MemesPage {...props} t={t} /> } />
+            <Route path="/signin" render={(props) => <SigninPage {...props} t={t} /> } />
+            <Route path="/register" render={(props) => <RegisterPage {...props} t={t} /> } />
+            <Route path="/forgotpassword" render={(props) => <ForgotPasswordPage {...props} t={t} /> } />
+          </GuestNavMenu>
         </div>
       </HashRouter>
     )
