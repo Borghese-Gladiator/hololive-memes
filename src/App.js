@@ -84,6 +84,7 @@ function App(props) {
             <Route path="/signin" render={(props) => <SigninPage {...props} t={t} /> } />
             <Route path="/register" render={(props) => <RegisterPage {...props} t={t} /> } />
             <Route path="/forgotpassword" render={(props) => <ForgotPasswordPage {...props} t={t} /> } />
+            <Footer iconLabelList={footerContactData} />
           </GuestNavMenu>
         </div>
       </HashRouter>

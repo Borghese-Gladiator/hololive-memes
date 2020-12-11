@@ -154,6 +154,9 @@ export default function PersistentDrawerLeft(props) {
                 boxShadow: '10px 10px 5px black'
               }}>
                 <Container>
+                  <Typography variant="h6" gutterBottom>
+                    Disclaimer: This is a fanmade website and is not affiliated with Hololive.
+                  </Typography>
                   <Typography paragraph>How to Use:</Typography>
                   <Typography paragraph>
                     1. Click "Memes" button to go to Memes page 

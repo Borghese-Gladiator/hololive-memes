@@ -25,7 +25,8 @@ function Copyright() {
 const useFooterStyles = makeStyles((theme) => ({
   footer: {
     // marginTop: theme.spacing(8),
-    padding: theme.spacing(40, 20, 20),
+    padding: theme.spacing(40, 20, 5),
+    textAlign: "center"
   },
   listRoot: {
     display: 'flex',
@@ -40,12 +41,12 @@ export default function Footer(props) {
   const classes = useFooterStyles();
   return (
     <footer className={classes.footer}>
-      <h3 style={{textAlign: "center"}}>
-        Contact Developer
-      </h3>
-      <p style={{textAlign: "center"}}>
-        If something's not working, make a meme about it (life lesson)
-      </p>
+      <Typography variant="h6" gutterBottom>
+        Contact Info
+      </Typography>
+      <Typography variant="subtitle1" gutterBottom>
+        Disclaimer: This is a fanmade website and is not affiliated with Hololive.
+      </Typography>
       <List
         component="nav"
         className={classes.listRoot}
@@ -58,11 +59,6 @@ export default function Footer(props) {
             <ListItemText secondary={obj.label} />
           </ListItem>
         ))}
-        <ListItem button>
-          <Typography variant="subtitle2" align="center" color="textSecondary" component="p">
-            logo made with <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-          </Typography>
-        </ListItem>
         <ListItem button>
           <Copyright />
         </ListItem>
