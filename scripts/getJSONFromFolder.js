@@ -2,7 +2,6 @@
   INPUT: path to folders (line )
   OUTPUT: data.json file as JS object to use in a constants.js
 */
-
 const fs = require('fs');
 const util = require('util'); // writes ['https://twitter.com/#!/101Cookbooks', 'http://www.facebook.com/101cookbooks']
 let data = []; // data to write to file
@@ -24,9 +23,18 @@ Date.prototype.toJSON = function () {
   return iso + sign + leadingZero + Math.abs(timezoneOffsetInHours).toString() + ':00';
 }
 
+const pad = (function(num) {
+  return function() {
+    let str = String(num++);
+    while (str.length < 4) str = "0" + str;
+    return str;
+  }
+})(1);
+
 fs.readdirSync('../public/memes/hololive/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
+    id: pad(),
     imgPath: 'memes/hololive/' + filename,
     title: formattedName,
     source: "",
@@ -37,6 +45,7 @@ fs.readdirSync('../public/memes/hololive/').forEach((filename, content) => {
 fs.readdirSync('../public/memes/animemes/').forEach((filename, content) => {
   const formattedName = filename.replace(/^.*[\\/]/, '').replace(/[_]+/g, ' ')
   data.push({
+    id: pad(),
     imgPath: 'memes/animemes/' + filename,
     title: formattedName,
     source: "",
