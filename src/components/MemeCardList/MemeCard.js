@@ -4,6 +4,9 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
+import Fab from '@material-ui/core/Fab';
+// icons
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -11,16 +14,20 @@ function Alert(props) {
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    position: 'relative',
     maxWidth: 800,
-    margin: 'auto',
-    '& > * + *': {
-      marginTop: theme.spacing(2),
-    },
+    margin: 'auto'
   },
-  gifStyle: {
+  media: {
     maxHeight: 550,
     width: '100%',
     objectFit: 'cover'
+  },
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    zIndex: theme.zIndex.speedDial + 1
   }
 }));
 
@@ -44,8 +51,11 @@ export default function MemeCard(props) {
 
   return (
     <Card className={classes.root}>
+      <Fab className={classes.overlay} color="primary" aria-label="add">
+        <ExitToAppIcon />
+      </Fab>
       <CardActionArea onClick={handleClick}>
-        <img src={path} alt="loading..." className={classes.gifStyle} />
+        <img src={path} alt="loading..." className={classes.media} />
       </CardActionArea>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="success">
