@@ -9,22 +9,24 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
 // Assets
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import MemeImg from './advertisement_meme.jpeg';
-import MyBackgroundImg from './coco-meme-review.png'
+import MemeImg from '../constants/img/advertisement_meme.jpeg';
+import MyBackgroundImg from '../constants/img/coco-meme-review.png'
 // Custom component & data
 import CustomLink from '../components/CustomLink'
 
 const useStyles = makeStyles((theme) => ({
   landingRoot: {
-    height: theme.spacing(93)
+    height: theme.spacing(93),
+    objectFit: 'cover'
   },
   image: {
-    height: theme.spacing(50),
-    width: theme.spacing(50),
+    height: theme.spacing(60),
+    width: theme.spacing(60),
   },
   landingButtons: {
+    paddingTop: theme.spacing(10),
     paddingRight: theme.spacing(30),
-    paddingBottom: theme.spacing(30)
+    paddingBottom: theme.spacing(15)
   },
   primaryButton: {
     color: "white",
