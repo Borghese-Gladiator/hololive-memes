@@ -24,7 +24,7 @@ export default function MemeCardList(props) {
     <Container id={id} className={classes.root}>
       <Grid container justify="center" spacing={1}>
         {memeData.map((obj, idx) => (
-          <Grid key={`${obj.name} ${idx}`} item>
+          <Grid key={`${obj.name} ${idx}`} item xs={12} sm={6} lg={4} xl={3}>
             <MemeCard
               path={obj.imgPath}
               name={obj.title}

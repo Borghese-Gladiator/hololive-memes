@@ -12,13 +12,15 @@ function Alert(props) {
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 800,
-    width: '100%',
+    margin: 'auto',
     '& > * + *': {
       marginTop: theme.spacing(2),
     },
   },
   gifStyle: {
-    maxHeight: 498
+    maxHeight: 550,
+    width: '100%',
+    objectFit: 'cover'
   }
 }));
 
