@@ -67,7 +67,7 @@ export default function MemeDetailsPage(props) {
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0); // scroll to top
   }, [])
   
   return (
