@@ -14,6 +14,12 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
+import DiscordImg from '../../constants/img/discord.png';
+
+function DiscordIcon() {
+  return <img src={DiscordImg} style={{height: 24, width: 24}} alt="Discord icon" />
+}
+
 export default function MemeUtilButtons() {
   return (
     <Container>
@@ -39,7 +45,7 @@ export default function MemeUtilButtons() {
           <FacebookIcon />
         </IconButton>
         <IconButton aria-label="delete">
-          <DeleteIcon />
+          <DiscordIcon />
         </IconButton>
         <IconButton color="primary" aria-label="add to shopping cart">
           <TwitterIcon />
