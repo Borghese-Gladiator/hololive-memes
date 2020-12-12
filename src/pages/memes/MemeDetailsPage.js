@@ -80,6 +80,9 @@ export default function MemeDetailsPage(props) {
           <Grid item xs={4}>
             <Container>
               <Typography variant="body2" gutterBottom>
+                Posted by: {userPosted}
+              </Typography>
+              <Typography variant="body2" gutterBottom>
                 Date Posted (EST): {dateString}
               </Typography>
               <Typography variant="h6" gutterBottom>
