@@ -43,7 +43,7 @@ function extractHostname(url) {
   return hostname;
 }
 
-export default function CustomExternalLink(props) {
+export default function SocialExternalLink(props) {
   function getWebsiteIcon(website) {
     switch (website) {
       case "youtube.com":

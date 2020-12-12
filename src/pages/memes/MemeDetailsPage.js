@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Fab, Paper, Button } from '@material-ui/core';
 // custom components
-import { CustomExternalLink, MemeUtilButtons } from '../../components/MemeDetails';
+import { SocialExternalLink, MemeUtilButtons } from '../../components/MemeDetails';
 // Material UI Icons
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
@@ -53,7 +53,7 @@ export default function MemeDetailsPage(props) {
   ]
   const source = [
     'https://www.reddit.com/r/Hololive/comments/kbgoz2/i_drew_holofive_%E3%81%BB%E3%82%8D%E3%81%B5%E3%81%81%E3%81%84%E3%81%B6/',
-    'https://www.reddit.com/r/Hololive/comments/kbgoz2/i_drew_holofive_%E3%81%BB%E3%82%8D%E3%81%B5%E3%81%81%E3%81%84%E3%81%B6/'
+    'https://twitter.com/Sco_ttie/status/1336958086272012290'
   ];
   
   return (
@@ -70,7 +70,7 @@ export default function MemeDetailsPage(props) {
               </Typography>
               {
                 source.map((val, idx) => {
-                  return <CustomExternalLink key={`${val} ${idx}`} fullURL={val} />
+                  return <SocialExternalLink key={`${val} ${idx}`} fullURL={val} />
                 })
               }
             </Container>
