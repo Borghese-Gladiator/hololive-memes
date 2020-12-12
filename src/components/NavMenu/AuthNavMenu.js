@@ -13,7 +13,7 @@ import CustomLink from '../CustomLink';
 // custom component
 import LanguageSelector from './LanguageSelector';
 // Navigation Menu (navbar && sidebar)
-import { Drawer, CssBaseline, AppBar, Toolbar, List, Divider, IconButton, MenuIcon, ListItem, ListItemIcon, ListItemText, Button, Typography } from '@material-ui/core';
+import { Drawer, CssBaseline, AppBar, Toolbar, List, Divider, IconButton, ListItem, ListItemIcon, ListItemText, Button, Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 // nav menu icons
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
