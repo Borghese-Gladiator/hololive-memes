@@ -4,29 +4,26 @@ import {
   Route,
   useRouteMatch
 } from "react-router-dom";
-
-import MemeDetailsPage from './MemeDetailsPage';
-// MemesPage imports
-import Container from '@material-ui/core/Container'
+// child pages
 import MemeCardList from '../../components/MemeCardList';
+import MemeDetailsPage from './MemeDetailsPage';
+// custom component
+import MemeSearch from '../../components/MemeSearch';
+// load meme data
 import { memePosts } from '../../constants/memeConstants';
 
-export default function MemesPage(props) {
+export default function MemesPage() {
   let match = useRouteMatch();
-  const { t } = props
 
   return (
-    <div>
-      <Switch>
-        <Route path={`${match.path}/:memeId`}>
-          <MemeDetailsPage />
-        </Route>
-        <Route path={match.path}>
-          <Container>
-            <MemeCardList memeData={memePosts} />
-          </Container>
-        </Route>
-      </Switch>
-    </div>
+    <Switch>
+      <Route path={`${match.path}/:memeID`}>
+        <MemeDetailsPage memeData={memePosts} />
+      </Route>
+      <Route path={match.path}>
+        <MemeSearch />
+        <MemeCardList memeData={memePosts} />
+      </Route>
+    </Switch>
   )
 }
