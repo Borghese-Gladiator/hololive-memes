@@ -3,63 +3,17 @@ import { makeStyles } from '@material-ui/core/styles';
 // custom React Router links
 import CustomLink from '../CustomLink';
 import CustomButtonLink from '../CustomButtonLink';
-// LanguageSelector
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-// LanguageSelector Icons
-import TranslateIcon from '@material-ui/icons/Translate';
+// custom component
+import LanguageSelector from './LanguageSelector';
 // appbar Material UI components
 import { AppBar, Button, CssBaseline, Toolbar } from '@material-ui/core';
-// instructions
+// instruction Material UI components
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
 // icons
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
-
-const useStyles2 = makeStyles((theme) => ({
-  formControl: {
-    margin: theme.spacing(1),
-    minWidth: 100,
-  },
-  select: {
-    color: "white",
-    fontSize: 18
-  }
-}));
-
-// Cannot add styling directly onto TranslateIcon in IconComponent which requires string input
-const colorInheritTranslateIcon = () => { return (<TranslateIcon style={{color:"inherit"}} />) }
-
-function LanguageSelector(props) {
-  const { onSelectLanguage } = props;
-  const classes = useStyles2();
-  const [lang, setLang] = React.useState('en');
-
-  const handleChange = (event) => {
-    setLang(event.target.value);
-    onSelectLanguage(event);
-  };
-
-  return (
-    <FormControl aria-label="Change language" title="Change language" className={classes.formControl}>
-      <Select
-        id="demo-simple-select"
-        IconComponent={colorInheritTranslateIcon}
-        value={lang}
-        onChange={handleChange}
-        className={classes.select}
-      >
-        <MenuItem value={'en'}>English</MenuItem>
-        <MenuItem value={'zh'}>中文</MenuItem>
-        <MenuItem value={'jp'}>日本語</MenuItem>
-        <MenuItem value={'es'}>Español</MenuItem>
-      </Select>
-    </FormControl>
-  )
-}
 
 const useStyles = makeStyles((theme) => ({
   appBar: {

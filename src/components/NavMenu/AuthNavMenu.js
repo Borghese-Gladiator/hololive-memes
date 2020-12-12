@@ -1,26 +1,3 @@
-import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-// custom React Router links
-import CustomLink from '../CustomLink';
-// LanguageSelector
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-// LanguageSelector Icons
-import TranslateIcon from '@material-ui/icons/Translate';
-// Navigation Menu (navbar && sidebar)
-import clsx from 'clsx';
-import Drawer from '@material-ui/core/Drawer';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-// nav menu icons
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 /*
   Navigation Menu holds
     - navbar (for settings)
@@ -28,52 +5,21 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
     - sidebar for route navigation
 */
 
-// Material UI components
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText'
-
-// Material UI components
-import { Button, Typography } from '@material-ui/core';
+import React from 'react';
+import clsx from 'clsx';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+// custom React Router links
+import CustomLink from '../CustomLink';
+// custom component
+import LanguageSelector from './LanguageSelector';
+// Navigation Menu (navbar && sidebar)
+import { Drawer, CssBaseline, AppBar, Toolbar, List, Divider, IconButton, MenuIcon, ListItem, ListItemIcon, ListItemText, Button, Typography } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
+// nav menu icons
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const drawerWidth = 240;
-
-const useStyles2 = makeStyles((theme) => ({
-  formControl: {
-    margin: theme.spacing(1)
-  }
-}));
-
-// Cannot add styling directly onto TranslateIcon in IconComponent which requires string input
-const whiteTranslateIcon = () => { return (<TranslateIcon style={{color:"inherit"}} />) }
-
-function LanguageSelector(props) {
-  const { onSelectLanguage } = props;
-  const classes = useStyles2();
-  const [lang, setLang] = React.useState('en');
-
-  const handleChange = (event) => {
-    setLang(event.target.value);
-    onSelectLanguage(event);
-  };
-
-  return (
-    <FormControl className={classes.formControl}>
-      <Select
-        id="demo-simple-select"
-        IconComponent={whiteTranslateIcon}
-        value={lang}
-        onChange={handleChange}
-        style={{color:"inherit", fontSize: '18px' }}
-      >
-        <MenuItem value={'en'}>English</MenuItem>
-        <MenuItem value={'es'}>Español</MenuItem>
-        <MenuItem value={'zh'}>简体中文</MenuItem>
-        <MenuItem value={'jp'}>日本語</MenuItem>
-      </Select>
-    </FormControl>
-  )
-}
 
 const useStyles = makeStyles((theme) => ({
   root: {
