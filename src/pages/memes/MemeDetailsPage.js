@@ -53,7 +53,10 @@ export default function MemeDetailsPage(props) {
   ]
   const source = [
     'https://www.reddit.com/r/Hololive/comments/kbgoz2/i_drew_holofive_%E3%81%BB%E3%82%8D%E3%81%B5%E3%81%81%E3%81%84%E3%81%B6/',
-    'https://twitter.com/Sco_ttie/status/1336958086272012290'
+    'https://twitter.com/Sco_ttie/status/1336958086272012290',
+    'https://www.pixiv.net/en/artworks/82575432',
+    'https://www.youtube.com/watch?v=dpEM6MyUjx8',
+    'https://www.flaticon.com/search?word=pixiv'
   ];
   
   return (

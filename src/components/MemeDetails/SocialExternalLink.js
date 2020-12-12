@@ -9,6 +9,9 @@ import { Link } from '@material-ui/core';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 // custom img assets
 import RedditImg from '../../constants/img/reddit_black_white.png';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import PixivImg from '../../constants/img/pixiv_icon.png';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center'
   },
   icon: {
-    height: 24,
-    paddingRight: 10
+    height: 20,
+    marginRight: 10
   },
 }));
 
@@ -47,15 +50,15 @@ export default function SocialExternalLink(props) {
   function getWebsiteIcon(website) {
     switch (website) {
       case "youtube.com":
-        return <img src={RedditImg} className={classes.icon} alt="link icon" />
+        return <YouTubeIcon style={{marginRight: 10}} />
       case "reddit.com":
         return <img src={RedditImg} className={classes.icon} alt="link icon" />
-      case "pixiv.com":
-        return <img src={RedditImg} className={classes.icon} alt="link icon" />
+      case "pixiv.net":
+        return <img src={PixivImg} className={classes.icon} alt="link icon" />
       case "twitter.com":
-        return <img src={RedditImg} className={classes.icon} alt="link icon" />
+        return <TwitterIcon style={{marginRight: 10}} />
       default:
-        return <ExitToAppIcon />
+        return <ExitToAppIcon style={{marginRight: 10}} />
     }
   }
   const { fullURL } = props;
