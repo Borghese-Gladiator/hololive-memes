@@ -47,6 +47,7 @@ function extractHostname(url) {
 }
 
 export default function SocialExternalLink(props) {
+  const classes = useStyles();
   function getWebsiteIcon(website) {
     switch (website) {
       case "youtube.com":
@@ -62,7 +63,6 @@ export default function SocialExternalLink(props) {
     }
   }
   const { fullURL } = props;
-  const classes = useStyles();
   const website = psl.get(extractHostname(fullURL)); // returns youtube.com
   return (
     <div className={classes.root}>

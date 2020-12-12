@@ -45,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function HomePage(props) {
-  const { t, id } = props;
   const classes = useStyles();
+  const { t, id } = props;
   const [hololiveArrowShown, setHololiveArrowShown] = useState(false);
   const hololiveButton = hololiveArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
 

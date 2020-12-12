@@ -37,10 +37,10 @@ const useStyles = makeStyles((theme) => ({
 
 
 export default function MemeDetailsPage(props) {
+  const classes = useStyles();
   const { memeData } = props;
   // memeID from URL
   let { memeID } = useParams();
-  const classes = useStyles();
   const memePost = memeData.find(meme => meme.id > memeID);
   // const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
   const { id, imgPath, title, userPosted, datePosted } = memePost;

@@ -34,8 +34,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MemeCard(props) {
-  const { postID, path } = props;
   const classes = useStyles();
+  const { postID, path } = props;
   const [open, setOpen] = React.useState(false);
   const gifUrl = "https://" + window.location.hostname + props.path
 
