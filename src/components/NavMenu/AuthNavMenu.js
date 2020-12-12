@@ -59,10 +59,6 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     height: '50px',
   },
-  divider: {
-    margin: theme.spacing(0, 0.5),
-    background: "white",
-  },
   grow: {
     flexGrow: 1,
   },
@@ -150,7 +146,6 @@ export default function PersistentDrawerLeft(props) {
           </CustomLink>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <Divider className={classes.divider} orientation="vertical" flexItem />
             <LanguageSelector onSelectLanguage={langCallback} />
           </div>
         </Toolbar>
