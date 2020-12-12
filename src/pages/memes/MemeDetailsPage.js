@@ -2,9 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 // Material UI components
 import { makeStyles } from '@material-ui/core/styles';
-import { Container, Grid, Typography } from '@material-ui/core';
+import { Container, Grid, Typography, Fab } from '@material-ui/core';
 // custom components
 import { CustomExternalLink, MemeUtilButtons } from '../../components/MemeDetails';
+// Material UI Icons
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -13,6 +15,11 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: 550,
     width: '100%',
     objectFit: 'cover'
+  },
+  absoluteTopLeft: {
+    position: 'absolute',
+    left: 30,
+    top: 70 // account for navbar
   },
   rowFlex: {
     display: 'flex',
@@ -49,6 +56,9 @@ export default function MemeDetailsPage(props) {
   
   return (
     <Container id={id} style={{paddingTop: 20}}>
+      <Fab color="primary" aria-label="add" className={classes.absoluteTopLeft}>
+        <ArrowBackIcon />
+      </Fab>
       <Grid container>
         <Grid item xs={4}>
           <Container>
