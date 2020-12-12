@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 // Material UI components
 import { makeStyles } from '@material-ui/core/styles';
@@ -60,11 +60,20 @@ export default function MemeDetailsPage(props) {
     'https://www.youtube.com/watch?v=dpEM6MyUjx8',
     'https://www.flaticon.com/search?word=pixiv'
   ];
+
+  const handleBackClick = () => {
+    window.history.back()
+  };
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <Container id={id} style={{paddingTop: 20}}>
       <Paper className={classes.paperPadding}>
-        <Fab color="primary" aria-label="add" className={classes.absoluteTopLeft}>
+        <Fab color="primary" aria-label="add" className={classes.absoluteTopLeft} onClick={handleBackClick}>
           <ArrowBackIcon />
         </Fab>
         <Grid container>
