@@ -8,7 +8,7 @@ import { Link } from '@material-ui/core';
 // Material UI Icons
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 // custom img assets
-import RedditImg from '../../constants/img/reddit_black_white.png';
+import RedditImg from '../../constants/img/reddit_black.png';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import PixivImg from '../../constants/img/pixiv_icon.png';
 import TwitterIcon from '@material-ui/icons/Twitter';
