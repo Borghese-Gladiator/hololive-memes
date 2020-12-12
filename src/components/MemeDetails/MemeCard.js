@@ -4,11 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
-import Fab from '@material-ui/core/Fab';
-// icons
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
-// custom link
-import CustomLink from '../CustomLink';
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -35,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MemeCard(props) {
   const classes = useStyles();
-  const { postID, path } = props;
+  const { path } = props;
   const [open, setOpen] = React.useState(false);
   const gifUrl = "https://" + window.location.hostname + props.path
 
