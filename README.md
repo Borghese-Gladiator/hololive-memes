@@ -1,5 +1,5 @@
 <a href="https://aimeos.org/">
-    <img src="holomemes_logo.png" alt="holomemes logo" title="holomemes" align="right" height="80" />
+    <img src="src/constants/img/holomemes_logo.png" alt="holomemes logo" title="holomemes" align="right" height="80" />
 </a>
 
 HoloMemes
