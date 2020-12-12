@@ -15,7 +15,7 @@ import MemeCard from './MemeCard'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    paddingBottom: theme.spacing(5),
+    padding: theme.spacing(0, 15, 5),
     '& > *': {
       marginTop: theme.spacing(2),
     },
@@ -73,7 +73,7 @@ export default function MemeCardList(props) {
           </Select>
         </FormControl>
       </div>
-      <div className={classes.columnFlex}>
+      <Container className={classes.columnFlex}>
         <Grid container justify="center" spacing={1}>
           {memeData.slice(((pageNumber - 1)*(numItemsPerPage)), ((pageNumber)*(numItemsPerPage))).map((obj, idx) => (
             <Grid key={`${obj.name} ${idx}`} item xs={12} sm={6} lg={4} xl={3}>
@@ -86,7 +86,7 @@ export default function MemeCardList(props) {
           ))}
         </Grid>
         <Pagination count={numPages} page={pageNumber} onChange={handlePageChange} color="primary" size="large" showFirstButton showLastButton className={classes.marginTop} />
-      </div>
+      </Container>
     </Container>
   );
 }
