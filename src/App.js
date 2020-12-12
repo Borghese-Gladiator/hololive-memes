@@ -16,7 +16,6 @@ import MemesPage from './pages/memes/MemesPage';
 import HistoryPage from './pages/auth/HistoryPage';
 import SavedPage from './pages/auth/SavedPage';
 
-import logo from './constants/img/white_holomemes_logo.png';
 // sidebar icons & assets
 import HomeIcon from '@material-ui/icons/Home';
 import HistoryIcon from '@material-ui/icons/History';
@@ -25,6 +24,8 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 // footer icons
 import MailIcon from '@material-ui/icons/Mail';
 import RoomIcon from '@material-ui/icons/Room';
+// logo
+import logo from './constants/img/white_holomemes_logo.png';
 
 const footerContactData = [
   {
@@ -52,7 +53,7 @@ function App(props) {
       { text: t('navMenu.hololive'), link: "/memes", iconFunc: () => { return <img src={HololiveLogo} style={{height:"35px", width: "35px"}} alt="Hololive Logo" /> } },
       { text: t('navMenu.history'), link: "/history", iconFunc: () => { return <HistoryIcon fontSize="large" /> } },
       { text: t('navMenu.saved'), link: "/saved", iconFunc: () => { return <BookmarksIcon fontSize="large" /> } },
-    ]
+    ];
     return (
       <HashRouter initialIndex={0}>
         <div style={{backgroundColor: "#DAE3E7"}}>
