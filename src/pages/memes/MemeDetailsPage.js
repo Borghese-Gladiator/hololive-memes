@@ -4,10 +4,9 @@ import { useParams } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Fab, Paper, Button } from '@material-ui/core';
 // custom components
-import { SocialExternalLink, MemeUtilButtons } from '../../components/MemeDetails';
+import { SocialExternalLink, MemeUtilButtons, MemeCard } from '../../components/MemeDetails';
 // Material UI Icons
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,7 +44,10 @@ export default function MemeDetailsPage(props) {
   const memePost = memeData.find(meme => meme.id > memeID);
   // const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
   const { id, imgPath, title, userPosted, datePosted } = memePost;
-  const formattedTitle = title.split('.')[0].replace(/^.*[\\/]/, '').replace(/[_-]+/g, ' ')
+  const formattedTitle = title.split('.')[0].replace(/^.*[\\/]/, '').replace(/[_-]+/g, ' ');
+  
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const dateString = datePosted.toLocaleDateString("en-US", options);
 
   const tags = [
     'Hololive',
@@ -68,6 +70,9 @@ export default function MemeDetailsPage(props) {
         <Grid container>
           <Grid item xs={4}>
             <Container>
+              <Typography variant="body2" gutterBottom>
+                Date Posted (EST): {dateString}
+              </Typography>
               <Typography variant="h6" gutterBottom>
                 Source
               </Typography>
@@ -83,7 +88,11 @@ export default function MemeDetailsPage(props) {
               <Typography variant="h4" gutterBottom>
                 {formattedTitle}
               </Typography>
-              <img src={imgPath} alt="loading..." className={classes.media} />
+              <MemeCard
+                path={imgPath}
+                name={title}
+                postID={id}
+              />
             </Container>
           </Grid>
           <Grid item xs={3}>

@@ -6,13 +6,14 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LinkIcon from '@material-ui/icons/Link';
 
+import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
+// Icons
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
-
+// img asset
 import DiscordImg from '../../constants/img/discord.png';
 
 function DiscordIcon() {
@@ -22,20 +23,12 @@ function DiscordIcon() {
 export default function MemeUtilButtons() {
   return (
     <Container>
-      <List component="nav" aria-label="main mailbox folders">
-        <ListItem button>
-          <ListItemIcon>
-            <FavoriteIcon />
-          </ListItemIcon>
-          <ListItemText primary="Favorite" />
-        </ListItem>
-        <ListItem button>
-          <ListItemIcon>
-            <LinkIcon />
-          </ListItemIcon>
-          <ListItemText primary="Copy Link" />
-        </ListItem>
-      </List>
+      <Button variant="contained" color="primary">
+        <FavoriteIcon style={{marginRight: 8}} />
+        Favorite
+      </Button>
+      <br />
+      <br />
       <Typography variant="h5" gutterBottom>
         Share It
       </Typography>
