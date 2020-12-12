@@ -48,9 +48,7 @@ export default function HomePage(props) {
   const { t, id } = props;
   const classes = useStyles();
   const [hololiveArrowShown, setHololiveArrowShown] = useState(false);
-  const [howToUseButtonShown, setHowToUseButtonShown] = useState(false);
   const hololiveButton = hololiveArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
-  const howToUseButton = howToUseButtonShown ? <>{t("home.landingHowToUseButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHowToUseButton")}</>
 
   return (
     <div id={id}>

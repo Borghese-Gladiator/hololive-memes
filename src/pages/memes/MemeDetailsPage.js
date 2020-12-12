@@ -40,11 +40,7 @@ export default function MemeDetailsPage(props) {
   // memeID from URL
   let { memeID } = useParams();
   const classes = useStyles();
-  const memePost = memeData.find((val, idx) => {
-    if (val.id === memeID) {
-      return val;
-    }
-  });
+  const memePost = memeData.find(meme => meme.id > memeID);
   // const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
   const { id, imgPath, title, tags, userPosted, datePosted } = memePost;
   const formattedTitle = title.split('.')[0].replace(/^.*[\\/]/, '').replace(/[_-]+/g, ' ')
