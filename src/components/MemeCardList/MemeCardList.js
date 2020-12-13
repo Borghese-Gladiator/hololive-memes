@@ -51,6 +51,7 @@ export default function MemeCardList(props) {
     setPageNumber(value);
   };
   const handleSelectPage = (event) => {
+    setPageNumber(1); // move back to 1st page
     setNumItemsPerPage(event.target.value);
   };
   
