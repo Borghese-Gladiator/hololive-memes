@@ -37,9 +37,9 @@ fs.readdirSync('../public/memes/hololive/').forEach((filename, content) => {
     id: pad(),
     imgPath: 'memes/hololive/' + filename,
     title: formattedName,
-    source: "",
+    source: ["https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/"],
     tags: ["Hololive"],
-    userPosted: "Admin_M"
+    userPosted: "Admin_Lumen"
   })
 });
 fs.readdirSync('../public/memes/animemes/').forEach((filename, content) => {
@@ -48,9 +48,9 @@ fs.readdirSync('../public/memes/animemes/').forEach((filename, content) => {
     id: pad(),
     imgPath: 'memes/animemes/' + filename,
     title: formattedName,
-    source: "",
-    tags: ["Animemes"],
-    userPosted: "Admin_M"
+    source: ["https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/"],
+    tags: ["Animeme"],
+    userPosted: "Admin_Lumen"
   })
 });
 
