@@ -1,7 +1,9 @@
-const filename = "Aloe-Shamiko-Edit.gif";
+const filename = "Suisei_Pouting.gif";
+const source = [
+  'https://tenor.com/view/suisei-hoshimati-suisei-sui-suichan-hololive-gif-18528320'
+]
 const memeObj = require('./memeObjList');
 const memeData = memeObj.getArray();
-
 
 const pad = function(num) {
   let str = String(num++);
@@ -19,7 +21,7 @@ memeData.push({
   id: pad(lastElemID + 1),
   imgPath: 'memes/hololive/' + filename,
   title: formattedName,
-  source: ["https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/"],
+  source: source,
   tags: ["Hololive"],
   userPosted: "Admin_Lumen"
 })
