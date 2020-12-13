@@ -8,7 +8,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0002',
@@ -17,7 +17,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0003',
@@ -26,7 +26,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0004',
@@ -35,7 +35,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0005',
@@ -47,7 +47,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0006',
@@ -56,7 +56,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0007',
@@ -67,7 +67,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0008',
@@ -79,7 +79,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0009',
@@ -91,7 +91,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0010',
@@ -100,7 +100,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0011',
@@ -109,7 +109,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0012',
@@ -120,7 +120,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0013',
@@ -132,7 +132,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0014',
@@ -144,7 +144,7 @@ module.exports = {
         ],
         tags: [ 'Hololive', 'Fubuki' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0015',
@@ -155,7 +155,7 @@ module.exports = {
         ],
         tags: [ 'Hololive', 'Flare' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0016',
@@ -166,7 +166,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0017',
@@ -178,7 +178,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0018',
@@ -187,7 +187,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0019',
@@ -196,7 +196,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0020',
@@ -205,7 +205,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0021',
@@ -214,7 +214,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0022',
@@ -225,7 +225,7 @@ module.exports = {
         ],
         tags: [ 'Hololive', 'Haachama' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0023',
@@ -234,7 +234,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0024',
@@ -243,7 +243,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0025',
@@ -255,7 +255,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0026',
@@ -264,7 +264,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0027',
@@ -273,7 +273,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0028',
@@ -285,7 +285,7 @@ module.exports = {
         ],
         tags: [ 'Hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0029',
@@ -294,7 +294,7 @@ module.exports = {
         source: [ 'https://www.youtube.com/watch?v=QVtaMwDqs3k' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0030',
@@ -303,7 +303,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0031',
@@ -312,7 +312,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0032',
@@ -321,7 +321,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0033',
@@ -332,7 +332,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0034',
@@ -341,7 +341,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0035',
@@ -350,7 +350,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0036',
@@ -359,7 +359,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0037',
@@ -368,7 +368,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0038',
@@ -380,7 +380,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0039',
@@ -391,7 +391,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0040',
@@ -400,7 +400,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0041',
@@ -411,7 +411,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0042',
@@ -420,7 +420,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0043',
@@ -432,7 +432,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0044',
@@ -443,7 +443,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0045',
@@ -452,7 +452,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0046',
@@ -461,7 +461,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0047',
@@ -473,7 +473,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0048',
@@ -485,7 +485,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0049',
@@ -497,7 +497,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0050',
@@ -508,7 +508,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0051',
@@ -517,7 +517,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0052',
@@ -528,7 +528,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0053',
@@ -537,7 +537,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0054',
@@ -546,7 +546,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0055',
@@ -555,7 +555,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0056',
@@ -566,7 +566,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0057',
@@ -577,7 +577,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0058',
@@ -586,7 +586,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0059',
@@ -595,7 +595,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0060',
@@ -604,7 +604,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0061',
@@ -613,7 +613,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0062',
@@ -625,7 +625,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0063',
@@ -636,7 +636,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0064',
@@ -648,7 +648,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0065',
@@ -661,7 +661,7 @@ module.exports = {
         ],
         tags: [ 'Hololive', 'Watame' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0066',
@@ -670,7 +670,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0067',
@@ -679,7 +679,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.668Z")
       },
       {
         id: '0068',
@@ -688,7 +688,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Animeme' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       },
       {
         id: '0069',
@@ -700,7 +700,7 @@ module.exports = {
         ],
         tags: [ 'Animeme' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       },
       {
         id: '0070',
@@ -712,7 +712,7 @@ module.exports = {
         ],
         tags: [ 'Animeme' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       },
       {
         id: '0071',
@@ -721,7 +721,7 @@ module.exports = {
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
         tags: [ 'Animeme' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       },
       {
         id: '0072',
@@ -734,7 +734,7 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       },
       {
         id: '0073',
@@ -745,7 +745,55 @@ module.exports = {
         ],
         tags: [ 'Hololive' ],
         userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T03:19:23.540Z")
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
+      },
+      {
+        id: '0074',
+        imgPath: 'memes/hololive/Calli_Gura_Party.png',
+        title: 'Calli Gura Party.png',
+        source: [
+          'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
+          'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
+        ],
+        tags: [ 'Hololive' ],
+        userPosted: 'Admin_Lumen',
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
+      },
+      {
+        id: '0075',
+        imgPath: 'memes/hololive/Amelia_Happy_Injection.png',
+        title: 'Amelia Happy Injection.png',
+        source: [
+          'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
+          'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
+        ],
+        tags: [ 'Hololive' ],
+        userPosted: 'Admin_Lumen',
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
+      },
+      {
+        id: '0076',
+        imgPath: 'memes/hololive/Kiara_Hungry_KFP.png',
+        title: 'Kiara Hungry KFP.png',
+        source: [
+          'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
+          'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
+        ],
+        tags: [ 'Hololive' ],
+        userPosted: 'Admin_Lumen',
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
+      },
+      {
+        id: '0077',
+        imgPath: 'memes/hololive/Ina_Drawing_Content.png',
+        title: 'Ina Drawing Content.png',
+        source: [
+          'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
+          'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
+        ],
+        tags: [ 'Hololive' ],
+        userPosted: 'Admin_Lumen',
+        datePosted: new Date("2020-12-13T05:14:34.669Z")
       }
     ]
   }
