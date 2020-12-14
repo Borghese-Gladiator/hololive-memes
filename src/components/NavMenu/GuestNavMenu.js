@@ -5,6 +5,7 @@ import CustomLink from '../CustomLink';
 import CustomButtonLink from '../CustomButtonLink';
 // custom component
 import LanguageSelector from './LanguageSelector';
+import RoutingDropdown from './RoutingDropdown';
 // appbar Material UI components
 import { AppBar, Button, CssBaseline, Toolbar } from '@material-ui/core';
 // instruction Material UI components
@@ -48,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
 }));
     
 
-export default function PersistentDrawerLeft(props) {
+export default function GuestNavMenu(props) {
   const classes = useStyles();
   const { logo, langCallback, signInText } = props;
 
@@ -87,12 +88,7 @@ export default function PersistentDrawerLeft(props) {
                 How to Use
               </Typography>
             </Button>
-            <CustomButtonLink 
-              ariaLabel="sign-in"
-              to="/signin"
-              primary={signInText}
-              icon={<ExitToAppIcon />}
-            />
+            <RoutingDropdown />
             <LanguageSelector onSelectLanguage={langCallback} />
           </div>
         </Toolbar>

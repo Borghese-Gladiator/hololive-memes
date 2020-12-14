@@ -5,12 +5,12 @@ import {
   useRouteMatch
 } from "react-router-dom";
 // child pages
-import MemeCardList from '../../components/MemeCardList';
+import MemeCardList from '../components/MemeCardList';
 import MemeDetailsPage from './MemeDetailsPage';
 // custom component
-import MemeSearch from '../../components/MemeSearch';
+import MemeSearch from '../components/MemeSearch';
 // load meme data
-import { memePosts } from '../../constants/memeConstants';
+import { memePosts } from '../constants/memeConstants';
 
 export default function MemesPage() {
   let match = useRouteMatch();
