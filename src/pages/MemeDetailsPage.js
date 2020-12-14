@@ -90,13 +90,17 @@ export default function MemeDetailsPage(props) {
               </Typography>
               <MemeCard
                 path={imgPath}
-                name={title}
+                title={title}
                 postID={id}
               />
             </Container>
           </Grid>
           <Grid item xs={3}>
-            <MemeFavoriteButton postID={id} />
+            <MemeFavoriteButton
+              path={imgPath}
+              title={title}
+              postID={id} 
+            />
           </Grid>
         </Grid>
         <Container className={classes.flexRowCenter}>
