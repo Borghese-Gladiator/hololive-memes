@@ -107,7 +107,7 @@ export default function MemeDetailsPage(props) {
           {
             tags.map((val, idx) => {
               return (
-                <Button variant="contained">
+                <Button variant="contained" key={`${val} ${idx}`}>
                   #{val}
                 </Button>
             )})
