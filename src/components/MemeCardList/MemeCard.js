@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MemeCard(props) {
   const classes = useStyles();
-  const { postID, path } = props;
+  const { path, title, postID } = props;
   const [open, setOpen] = React.useState(false);
   const gifUrl = "https://" + window.location.hostname + props.path
 
@@ -48,12 +48,21 @@ export default function MemeCard(props) {
     const historyListStr = localStorage.getItem('history');
     if (!historyListStr) {
       // does not exist
-      localStorage.setItem('history', JSON.stringify([postID]));
+      localStorage.setItem('history', JSON.stringify([{
+        imgPath: path,
+        title: title,
+        id: postID
+      }]));
+
     } else {
       const historyList = JSON.parse(historyListStr);
       if (!historyList.includes(postID)) {
         // no duplicates present
-        historyList.push(postID);
+        historyList.push({
+          imgPath: path,
+          title: title,
+          id: postID
+        });
         localStorage.setItem('history', JSON.stringify(historyList));
       }
     }

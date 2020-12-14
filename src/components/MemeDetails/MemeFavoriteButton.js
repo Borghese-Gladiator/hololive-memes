@@ -10,17 +10,21 @@ function Alert(props) {
 }
 
 export default function MemeCard(props) {
-  const { postID } = props;
+  const { path, title, postID } = props;
 
   const [open, setOpen] = React.useState(false);
   const [isValid, setIsValid] = React.useState(true);
 
   const handleClick = () => {  
     // add to localStorage history
-    const favoriteListStr = localStorage.getItem('favorite');
+    const favoriteListStr = localStorage.getItem('favorites');
     if (!favoriteListStr) {
       // does not exist
-      localStorage.setItem('favorite', JSON.stringify([postID]));
+      localStorage.setItem('favorites', JSON.stringify([{
+        imgPath: path,
+        title: title,
+        id: postID
+      }]));
     } else {
       const favoriteList = JSON.parse(favoriteListStr);
       if (favoriteList.includes(postID)) {
@@ -28,8 +32,12 @@ export default function MemeCard(props) {
         setIsValid(false);
       } else {
         setIsValid(true);
-        favoriteList.push(postID);
-        localStorage.setItem('favorite', JSON.stringify(favoriteList));
+        favoriteList.push(JSON.stringify({
+          imgPath: path,
+          title: title,
+          id: postID
+        }));
+        localStorage.setItem('favorites', JSON.stringify(favoriteList));
       }
     }
     // display alert after determining if valid

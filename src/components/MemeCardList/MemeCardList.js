@@ -80,7 +80,7 @@ export default function MemeCardList(props) {
             <Grid key={`${obj.name} ${idx}`} item xs={12} sm={6} lg={4} xl={3}>
               <MemeCard
                 path={obj.imgPath}
-                name={obj.title}
+                title={obj.title}
                 postID={obj.id}
               />
             </Grid>
