@@ -11,20 +11,40 @@ function Alert(props) {
 
 export default function MemeCard(props) {
   const { postID } = props;
- 
-  const [open, setOpen] = React.useState(false);
 
-  const handleClick = () => {
+  const [open, setOpen] = React.useState(false);
+  const [isValid, setIsValid] = React.useState(true);
+
+  const handleClick = () => {  
     // add to localStorage history
-    const favoriteIDSet = localStorage.getItem('favorite');
-    if (favoriteIDSet) {
-      favoriteIDSet.add(postID); 
-      localStorage.setItem('favorite', favoriteIDSet);
+    const favoriteListStr = localStorage.getItem('favorite');
+    if (!favoriteListStr) {
+      // does not exist
+      localStorage.setItem('favorite', JSON.stringify([postID]));
     } else {
-      let mySet = new Set();
-      mySet.add(postID);
-      localStorage.setItem('favorite', mySet);
+      const favoriteList = JSON.parse(favoriteListStr);
+      if (favoriteList.includes(postID)) {
+        // duplicates present
+        setIsValid(false);
+      } else {
+        setIsValid(true);
+        favoriteList.push(postID);
+        localStorage.setItem('favorite', JSON.stringify(favoriteList));
+      }
     }
+    // display alert after determining if valid
+    setOpen(true);
+  }
+
+  function showAlert(isValid) {
+    return isValid ? 
+      <Alert onClose={handleClose} severity="info">
+        Added to favorites!
+      </Alert>
+      :
+      <Alert onClose={handleClose} severity="error">
+        Duplicate key - it's already added!
+      </Alert>
   }
 
   const handleClose = (event, reason) => {
@@ -40,11 +60,8 @@ export default function MemeCard(props) {
         <FavoriteIcon style={{marginRight: 8}} />
         Favorite
       </Button>
-      <Alert severity="info">This is an info alert — check it out!</Alert>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-        <Alert onClose={handleClose} severity="info">
-          Added to favorites!
-        </Alert>
+        {showAlert(isValid)}
       </Snackbar>
     </div>
   )

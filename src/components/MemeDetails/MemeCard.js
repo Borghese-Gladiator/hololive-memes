@@ -39,16 +39,19 @@ export default function MemeCard(props) {
     // https://stackoverflow.com/questions/11401897/get-the-current-domain-name-with-javascript-not-the-path-etc
     navigator.clipboard.writeText(gifUrl);
     setOpen(true);
-    
+
     // add to localStorage history
-    const historyIDSet = localStorage.getItem('history');
-    if (historyIDSet) {
-      historyIDSet.add(postID); 
-      localStorage.setItem('history', historyIDSet);
+    const historyListStr = localStorage.getItem('history');
+    if (!historyListStr) {
+      // does not exist
+      localStorage.setItem('history', JSON.stringify([postID]));
     } else {
-      let mySet = new Set();
-      mySet.add(postID);
-      localStorage.setItem('history', mySet);
+      const historyList = JSON.parse(historyListStr);
+      if (!historyList.includes(postID)) {
+        // no duplicates present
+        historyList.push(postID);
+        localStorage.setItem('history', JSON.stringify(historyList));
+      }
     }
   };
   const handleClose = (event, reason) => {
