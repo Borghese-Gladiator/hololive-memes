@@ -4,11 +4,9 @@ import { useParams } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Fab, Paper, Button } from '@material-ui/core';
 // custom components
-import { SocialExternalLink, MemeCard } from '../../components/MemeDetails';
+import { SocialExternalLink, MemeFavoriteButton, MemeCard } from '../../components/MemeDetails';
 // Material UI Icons
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-
-import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,19 +57,6 @@ export default function MemeDetailsPage(props) {
   useEffect(() => {
     window.scrollTo(0, 0); // scroll to top
   }, []);
-
-  const handleAddFavorite = () => {
-    // add to localStorage history
-    const favoriteIDSet = localStorage.getItem('favorite');
-    if (favoriteIDSet) {
-      favoriteIDSet.add(id); 
-      localStorage.setItem('favorite', favoriteIDSet);
-    } else {
-      let mySet = new Set();
-      mySet.add(id);
-      localStorage.setItem('favorite', mySet);
-    }
-  }
   
   return (
     <Container id={id} style={{paddingTop: 20}}>
@@ -111,10 +96,7 @@ export default function MemeDetailsPage(props) {
             </Container>
           </Grid>
           <Grid item xs={3}>
-            <Button variant="contained" color="primary" onClick={handleAddFavorite}>
-              <FavoriteIcon style={{marginRight: 8}} />
-              Favorite
-            </Button>
+            <MemeFavoriteButton postID={id} />
           </Grid>
         </Grid>
         <Container className={classes.flexRowCenter}>
