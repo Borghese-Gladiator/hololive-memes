@@ -9,7 +9,7 @@ export default function HistoryPage() {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // add to localStorage history
-    const favoriteListStr = localStorage.getItem('history');
+    const favoriteListStr = localStorage.getItem('favorites');
     if (favoriteListStr) {
       setMemeList(JSON.parse(favoriteListStr));
     }
