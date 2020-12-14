@@ -2,6 +2,17 @@ module.exports = {
   getArray: () => {
     return [
       {
+        id: '0000',
+        imgPath: 'memes/hololive/Flare_Nosebleed.jpg',
+        title: 'Flare Nosebleed.jpg',
+        source: [
+          'https://twitter.com/Tropical_umiusi/status/1312723441439576064?s=03'
+        ],
+        tags: [ 'Hololive' ],
+        userPosted: 'Admin_Lumen',
+        datePosted: new Date("2020-12-13T13:09:28.089Z")
+      },
+      {
         id: '0001',
         imgPath: 'memes/hololive/Aloe-Shamiko-Edit.gif',
         title: 'Aloe-Shamiko-Edit.gif',
@@ -1020,17 +1031,6 @@ module.exports = {
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
-      {
-        id: '0098',
-        imgPath: 'memes/hololive/Flare_Nosebleed.jpg',
-        title: 'Flare Nosebleed.jpg',
-        source: [
-          'https://twitter.com/Tropical_umiusi/status/1312723441439576064?s=03'
-        ],
-        tags: [ 'Hololive' ],
-        userPosted: 'Admin_Lumen',
-        datePosted: new Date("2020-12-13T13:09:28.089Z")
-      }
     ]
   }
 }
