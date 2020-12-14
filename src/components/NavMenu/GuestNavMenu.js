@@ -5,7 +5,6 @@ import CustomLink from '../CustomLink';
 import CustomButtonLink from '../CustomButtonLink';
 // custom component
 import LanguageSelector from './LanguageSelector';
-import RoutingDropdown from './RoutingDropdown';
 // appbar Material UI components
 import { AppBar, Button, CssBaseline, Toolbar } from '@material-ui/core';
 // dropdown button
