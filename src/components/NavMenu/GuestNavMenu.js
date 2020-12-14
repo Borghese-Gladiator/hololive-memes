@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 // custom React Router links
 import CustomLink from '../CustomLink';
-import CustomButtonLink from '../CustomButtonLink';
 // custom component
 import LanguageSelector from './LanguageSelector';
 // appbar Material UI components
@@ -16,7 +15,6 @@ import Container from '@material-ui/core/Container';
 import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
 // icons
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import DetailsIcon from '@material-ui/icons/Details';
 import ChangeHistoryIcon from '@material-ui/icons/ChangeHistory';
 
@@ -55,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function GuestNavMenu(props) {
   const classes = useStyles();
-  const { logo, langCallback, signInText } = props;
+  const { logo, langCallback } = props;
 
   // how to use instructions
   const [open, setOpen] = React.useState(false);
