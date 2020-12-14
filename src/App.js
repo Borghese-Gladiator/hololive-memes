@@ -6,7 +6,7 @@ import NavMenu from './components/NavMenu/GuestNavMenu';
 import Footer from './components/Footer'
 // pages
 import HomePage from './pages/HomePage';
-import MemesPage from './pages/MemesPage';
+import MemesPage from './pages/memes/MemesPage';
 import HistoryPage from './pages/HistoryPage';
 import FavoritesPage from './pages/FavoritesPage';
 
