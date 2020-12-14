@@ -8,6 +8,9 @@ import LanguageSelector from './LanguageSelector';
 import RoutingDropdown from './RoutingDropdown';
 // appbar Material UI components
 import { AppBar, Button, CssBaseline, Toolbar } from '@material-ui/core';
+// dropdown button
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 // instruction Material UI components
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
@@ -15,6 +18,8 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Paper from '@material-ui/core/Paper';
 // icons
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import DetailsIcon from '@material-ui/icons/Details';
+import ChangeHistoryIcon from '@material-ui/icons/ChangeHistory';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -62,6 +67,18 @@ export default function GuestNavMenu(props) {
     setOpen(!open);
     console.log(open);
   };
+
+  
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleDropdownClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -84,11 +101,33 @@ export default function GuestNavMenu(props) {
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <Button onClick={handleToggle} style={{color: 'inherit'}}>
-              <Typography variant="button" display="block" gutterBottom>
+              <Typography variant="button" gutterBottom>
                 How to Use
               </Typography>
             </Button>
-            <RoutingDropdown />
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{color: 'inherit'}}>
+              <Typography variant="button" display="block" gutterBottom>
+                Open Saved
+              </Typography>
+              { anchorEl ? <ChangeHistoryIcon /> : <DetailsIcon /> }
+            </Button>
+            <Menu
+              id="simple-menu"
+              anchorEl={anchorEl}
+              open={Boolean(anchorEl)}
+              onClose={handleDropdownClose}
+            >
+              <MenuItem onClick={handleDropdownClose}>
+                <CustomLink ariaLabel={`Link to history page`} to={'/history'}>
+                  History
+                </CustomLink>
+              </MenuItem>
+              <MenuItem onClick={handleDropdownClose}>
+                <CustomLink ariaLabel={`Link to favorites page`} to={'/favorites'}>
+                  Favorites
+                </CustomLink>
+              </MenuItem>
+            </Menu>
             <LanguageSelector onSelectLanguage={langCallback} />
           </div>
         </Toolbar>
