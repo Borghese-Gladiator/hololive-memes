@@ -4,9 +4,11 @@ import { useParams } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Fab, Paper, Button } from '@material-ui/core';
 // custom components
-import { SocialExternalLink, MemeUtilButtons, MemeCard } from '../../components/MemeDetails';
+import { SocialExternalLink, MemeCard } from '../../components/MemeDetails';
 // Material UI Icons
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,24 +44,12 @@ export default function MemeDetailsPage(props) {
   // memeID from URL
   let { memeID } = useParams();
   const memePost = memeData.find(meme => meme.id > memeID);
-  // const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
-  const { id, imgPath, title, userPosted, datePosted } = memePost;
+  const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
+  
   const formattedTitle = title.split('.')[0].replace(/^.*[\\/]/, '').replace(/[_-]+/g, ' ');
   
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
   const dateString = datePosted.toLocaleDateString("en-US", options);
-
-  const tags = [
-    'Hololive',
-    'Aloe'
-  ]
-  const source = [
-    'https://www.reddit.com/r/Hololive/comments/kbgoz2/i_drew_holofive_%E3%81%BB%E3%82%8D%E3%81%B5%E3%81%81%E3%81%84%E3%81%B6/',
-    'https://twitter.com/Sco_ttie/status/1336958086272012290',
-    'https://www.pixiv.net/en/artworks/82575432',
-    'https://www.youtube.com/watch?v=dpEM6MyUjx8',
-    'https://www.flaticon.com/search?word=pixiv'
-  ];
 
   const handleBackClick = () => {
     window.history.back()
@@ -68,7 +58,20 @@ export default function MemeDetailsPage(props) {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     window.scrollTo(0, 0); // scroll to top
-  }, [])
+  }, []);
+
+  const handleAddFavorite = () => {
+    // add to localStorage history
+    const favoriteIDSet = localStorage.getItem('favorite');
+    if (favoriteIDSet) {
+      favoriteIDSet.add(id); 
+      localStorage.setItem('favorite', favoriteIDSet);
+    } else {
+      let mySet = new Set();
+      mySet.add(id);
+      localStorage.setItem('favorite', mySet);
+    }
+  }
   
   return (
     <Container id={id} style={{paddingTop: 20}}>
@@ -108,7 +111,10 @@ export default function MemeDetailsPage(props) {
             </Container>
           </Grid>
           <Grid item xs={3}>
-            <MemeUtilButtons />
+            <Button variant="contained" color="primary" onClick={handleAddFavorite}>
+              <FavoriteIcon style={{marginRight: 8}} />
+              Favorite
+            </Button>
           </Grid>
         </Grid>
         <Container className={classes.flexRowCenter}>
