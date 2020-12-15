@@ -30,14 +30,12 @@ export default function MemeSearch(props) {
   const [tags, setTags] = React.useState([]);
 
   const handleRemoveClick = (tag) => {
-    setTags(tags.filter((val, idx) => {
-      return val !== tag;
-    }));
+    setTags(tags.filter((val, idx) => val !== tag )); // remove item
     filterByTagCallback(tags);
   }
   
   const handleClick = (tag) => {
-    setTags(oldArray => [...oldArray, tag]);
+    setTags(oldArray => [...oldArray, tag]); // add item
     filterByTagCallback(tags);
   }
 
@@ -56,11 +54,17 @@ export default function MemeSearch(props) {
       <div className={classes.flexRowCenter}>
         {
           ['Smug', 'Angry', 'Sleepy', 'Surprised'].map((val, idx) => {
-            return (
+            // disable if present in tags 
+            return !tags.includes(val)
+              ?
               <Button variant="contained" key={`${val} ${idx}`} onClick={() => handleClick(val)}>
                 #{val}
               </Button>
-          )})
+              :
+              <Button variant="contained" key={`${val} ${idx}`} onClick={() => handleClick(val)} disabled>
+                #{val}
+              </Button>
+          })
         }
       </div>
     </div>
