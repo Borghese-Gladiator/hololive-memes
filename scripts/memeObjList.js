@@ -8,7 +8,7 @@ module.exports = {
         source: [
           'https://twitter.com/Tropical_umiusi/status/1312723441439576064?s=03'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -17,7 +17,7 @@ module.exports = {
         imgPath: 'memes/hololive/Aloe-Shamiko-Edit.gif',
         title: 'Aloe-Shamiko-Edit.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -26,7 +26,7 @@ module.exports = {
         imgPath: 'memes/hololive/Amelia-Gaming-Rage.gif',
         title: 'Amelia-Gaming-Rage.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -35,7 +35,7 @@ module.exports = {
         imgPath: 'memes/hololive/Aqua_Dogeza.gif',
         title: 'Aqua Dogeza.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -44,7 +44,7 @@ module.exports = {
         imgPath: 'memes/hololive/Aqua_Relatable.gif',
         title: 'Aqua Relatable.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -56,7 +56,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/i8cuo6/baqua/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/minatoaqua/status/1293387419417362433?s=19'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -65,7 +65,7 @@ module.exports = {
         imgPath: 'memes/hololive/botan-happy.gif',
         title: 'botan-happy.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -76,7 +76,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/ibz6ye/botan_chasing_after_watame_by_kaynimatic/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -88,7 +88,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ieol0q/botan_dreaming_sheep/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/felutiahime/status/1294644374018510848'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -100,7 +100,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/i8z23l/botan_actually_wants_to_eat_watame/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/shishirobotan/status/1293736362504413184?s=19'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -109,7 +109,7 @@ module.exports = {
         imgPath: 'memes/hololive/Calli-Derp-Smile-Emoji.png',
         title: 'Calli-Derp-Smile-Emoji.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -118,7 +118,7 @@ module.exports = {
         imgPath: 'memes/hololive/Climbing_Fubuki.jpg',
         title: 'Climbing Fubuki.jpg',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -129,7 +129,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iajkc5/i_made_some_emoticons_for_you_guys_3/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -141,7 +141,7 @@ module.exports = {
           'https://www.reddit.com/r/AmaneKanata/comments/i7qeru/worried_roommate/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/SmallGachi/status/1292958062219673600'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -153,7 +153,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/i3x84n/confoosed_fubuki/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/Maplefall9713/status/1290655039925686273'
         ],
-        tags: [ 'Hololive', 'Fubuki' ],
+        tags: [ 'hololive', 'Fubuki' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -164,7 +164,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iks37x/i_drew_flare_hugging_kirby/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive', 'Flare' ],
+        tags: [ 'hololive', 'Flare' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -175,7 +175,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iajkc5/i_made_some_emoticons_for_you_guys_3/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -187,7 +187,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/id60ya/borgar_queen_fubuki_by_kaynimatic/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/kaynimatic/status/1296351889886310401'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -196,7 +196,7 @@ module.exports = {
         imgPath: 'memes/hololive/Fubuki_Losing_It.gif',
         title: 'Fubuki Losing It.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -205,7 +205,7 @@ module.exports = {
         imgPath: 'memes/hololive/Fubuki_Questioning.gif',
         title: 'Fubuki Questioning.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -214,7 +214,7 @@ module.exports = {
         imgPath: 'memes/hololive/Fubuki_Relaxed_Yes_Yes.gif',
         title: 'Fubuki Relaxed Yes Yes.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -223,7 +223,7 @@ module.exports = {
         imgPath: 'memes/hololive/Gura-Crazy-Face-Emoji.png',
         title: 'Gura-Crazy-Face-Emoji.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -234,7 +234,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/i5xwus/saw_this_on_twitter_and_decided_it_needed_english/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive', 'Haachama' ],
+        tags: [ 'hololive', 'Haachama' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -243,7 +243,7 @@ module.exports = {
         imgPath: 'memes/hololive/Haato_Panic.gif',
         title: 'Haato Panic.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -252,7 +252,7 @@ module.exports = {
         imgPath: 'memes/hololive/Happy_Fubuki.png',
         title: 'Happy Fubuki.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -264,7 +264,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/id5ou0/5th_generation_cuties/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/yosshyachillesd/status/1296227948752785409?s=19'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -273,7 +273,7 @@ module.exports = {
         imgPath: 'memes/hololive/Ina-Neutral-Face-Emoji.png',
         title: 'Ina-Neutral-Face-Emoji.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -282,7 +282,7 @@ module.exports = {
         imgPath: 'memes/hololive/Kiara-Airhead-Smile-Emoji.png',
         title: 'Kiara-Airhead-Smile-Emoji.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -294,7 +294,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ivgrct/xpotato_by_2snacks/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/2Snacks/status/1298421340786098176'
         ],
-        tags: [ 'Hololive', 'Korone' ],
+        tags: [ 'hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -303,7 +303,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Big_Brain.gif',
         title: 'Korone Big Brain.gif',
         source: [ 'https://www.youtube.com/watch?v=QVtaMwDqs3k' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -312,7 +312,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Big_Smile.gif',
         title: 'Korone Big Smile.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -321,7 +321,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Dancing.gif',
         title: 'Korone Dancing.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive', 'Korone' ],
+        tags: [ 'hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -330,7 +330,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Happy_Doggo.gif',
         title: 'Korone Happy Doggo.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive', 'Korone' ],
+        tags: [ 'hololive', 'Korone' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -341,7 +341,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iamryk/me_when_i_was_a_kid/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -350,7 +350,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Yes_I_Am_Jojo.gif',
         title: 'Korone Yes I Am Jojo.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -359,7 +359,7 @@ module.exports = {
         imgPath: 'memes/hololive/Lamy-Head-Bouncing.gif',
         title: 'Lamy-Head-Bouncing.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -368,7 +368,7 @@ module.exports = {
         imgPath: 'memes/hololive/lamy_pet_nene.gif',
         title: 'lamy pet nene.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -377,7 +377,7 @@ module.exports = {
         imgPath: 'memes/hololive/mano-aloe-sad.gif',
         title: 'mano-aloe-sad.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -389,7 +389,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ido8kb/nothing_to_see_here_its_just_shion_and_marine/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/V33983897/status/1296625181243240448'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -400,7 +400,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iajkc5/i_made_some_emoticons_for_you_guys_3/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -409,7 +409,7 @@ module.exports = {
         imgPath: 'memes/hololive/Matsuri_Fubuki_maybe_nsfw.gif',
         title: 'Matsuri Fubuki maybe nsfw.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -420,7 +420,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/i9kkfr/the_perfect_matsuri_face_for_the_perfect_moment/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -429,7 +429,7 @@ module.exports = {
         imgPath: 'memes/hololive/Minato_Aqua_Road_Rage.gif',
         title: 'Minato Aqua Road Rage.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -441,7 +441,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/igd4jw/have_a_good_rest%CA%83%C6%AA/',
           'https://twitter.com/AkaiKcy2/status/1298264220031582208'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -452,7 +452,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iajkc5/i_made_some_emoticons_for_you_guys_3/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -461,7 +461,7 @@ module.exports = {
         imgPath: 'memes/hololive/Nakiri_Happy_Oni.gif',
         title: 'Nakiri Happy Oni.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -470,7 +470,7 @@ module.exports = {
         imgPath: 'memes/hololive/nene-sweating.gif',
         title: 'nene-sweating.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -482,7 +482,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ipxet4/made_a_little_pixel_animation_celebrating_okayus/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/tristyyy_m/status/1303927582522355713?s=20'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -494,7 +494,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/i6khp4/okayu_munching_on_a_jelly_donut/?utm_medium=android_app&utm_source=share',
           'https://www.pixiv.net/en/artworks/83561918'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -506,7 +506,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/icff0l/that_one_pekora_gif_but_more_nousagis_by/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/kaynimatic/status/1295524430689349632'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -517,7 +517,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/ias333/pekora_pixel_animation_by_kaynimatic/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -526,7 +526,7 @@ module.exports = {
         imgPath: 'memes/hololive/pekora_smiling.png',
         title: 'pekora smiling.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -537,7 +537,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/iiyapj/pogu_pogu_okayu/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -546,7 +546,7 @@ module.exports = {
         imgPath: 'memes/hololive/Polka-Mirage-Movement.gif',
         title: 'Polka-Mirage-Movement.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -555,7 +555,7 @@ module.exports = {
         imgPath: 'memes/hololive/Scary_Korone_Contemplating.gif',
         title: 'Scary Korone Contemplating.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -564,7 +564,7 @@ module.exports = {
         imgPath: 'memes/hololive/Shion-Marine-Sleeping.gif',
         title: 'Shion-Marine-Sleeping.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -575,7 +575,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/ins5xg/pathetic/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -586,7 +586,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/ii6rwr/slav_adidas_lion/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -595,7 +595,7 @@ module.exports = {
         imgPath: 'memes/hololive/Smug_Nakiri_Yoyo.gif',
         title: 'Smug Nakiri Yoyo.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -604,7 +604,7 @@ module.exports = {
         imgPath: 'memes/hololive/Subaru_Deciding.gif',
         title: 'Subaru Deciding.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -613,7 +613,7 @@ module.exports = {
         imgPath: 'memes/hololive/Suisei-Worried.png',
         title: 'Suisei-Worried.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -622,7 +622,7 @@ module.exports = {
         imgPath: 'memes/hololive/Swinging_Ookami_Mio.gif',
         title: 'Swinging Ookami Mio.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -634,7 +634,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ijoo83/just_towa_playing_video_game/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/potato7192/status/1216094016648859649'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -645,7 +645,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/i6jajt/fk_it_watamelon_emoji_ready_to_use_for_discord/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -657,7 +657,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ins4gv/sheepudding/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/potato7192/status/1302687766568812544'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -670,7 +670,7 @@ module.exports = {
           'https://twitter.com/Yurver5/status/1303657486281449472?s=20',
           'https://www.pixiv.net/en/artworks/84262693'
         ],
-        tags: [ 'Hololive', 'Watame' ],
+        tags: [ 'hololive', 'Watame' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -679,7 +679,7 @@ module.exports = {
         imgPath: 'memes/hololive/Watame_What_Did_I_Just_See.gif',
         title: 'Watame What Did I Just See.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -688,7 +688,7 @@ module.exports = {
         imgPath: 'memes/hololive/Watson-Inspect-Emoji.png',
         title: 'Watson-Inspect-Emoji.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -697,7 +697,7 @@ module.exports = {
         imgPath: 'memes/animemes/Screenshot-2020-11-01-004511.png',
         title: 'Screenshot-2020-11-01-004511.png',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Animeme' ],
+        tags: [ 'animeme' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -709,7 +709,7 @@ module.exports = {
           'https://www.reddit.com/r/MachikadoMazoku/comments/isnqwp/cute_shamiko/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/KizuShinomiya/status/1305285037407887360'
         ],
-        tags: [ 'Animeme' ],
+        tags: [ 'animeme' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -721,7 +721,7 @@ module.exports = {
           'https://www.reddit.com/r/laidbackcamp/comments/ifmxdn/i_did_my_best_today_too/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/uta_25/status/1297852475672690689'
         ],
-        tags: [ 'Animeme' ],
+        tags: [ 'animeme' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -730,7 +730,7 @@ module.exports = {
         imgPath: 'memes/animemes/Yuruyuri-Headpats.gif',
         title: 'Yuruyuri-Headpats.gif',
         source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-        tags: [ 'Animeme' ],
+        tags: [ 'animeme' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -743,7 +743,7 @@ module.exports = {
           'https://twitter.com/felutiahime/status/1293595636995039232',
           'https://www.pixiv.net/en/artworks/83638393'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -754,7 +754,7 @@ module.exports = {
         source: [
           'https://tenor.com/view/suisei-hoshimati-suisei-sui-suichan-hololive-gif-18528320'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -766,7 +766,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -778,7 +778,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -790,7 +790,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -802,7 +802,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/iu0q4r/the_perfect_background_doesnt_exi/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/PokeyPokums/status/1306261569052049408?s=09'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -814,7 +814,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ixkakf/holoen_animations_part_2/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/chrone_co/status/1307615622931427328'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -826,7 +826,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ixkakf/holoen_animations_part_2/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/chrone_co/status/1308330533701562368'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -838,7 +838,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ixkakf/holoen_animations_part_2/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/chrone_co/status/1307974670986010625'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -850,7 +850,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ixkakf/holoen_animations_part_2/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/chrone_co/status/1307263495977664512'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -862,7 +862,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/ixkakf/holoen_animations_part_2/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/chrone_co/status/1307254790909353984'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -873,7 +873,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j17fjm/reminder_that_a_certain_elite_is_waiting_to/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -884,7 +884,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j1ee1h/just_a_smug_kaichou/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -893,7 +893,7 @@ module.exports = {
         imgPath: 'memes/hololive/Miko_Will_Blow_Up_Those_Guys.jpg',
         title: 'Miko Will Blow Up Those Guys.jpg',
         source: [ 'https://twitter.com/keru720/status/1310871668126961667?s=03' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -904,7 +904,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j23y5a/hololive_gamers/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -915,7 +915,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j23y5a/hololive_gamers/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -926,7 +926,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j23y5a/hololive_gamers/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -937,7 +937,7 @@ module.exports = {
         source: [
           'https://www.reddit.com/r/Hololive/comments/j23y5a/hololive_gamers/?utm_medium=android_app&utm_source=share'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -946,7 +946,7 @@ module.exports = {
         imgPath: 'memes/hololive/Korone_Happy_Chainsaw.gif',
         title: 'Korone Happy Chainsaw.gif',
         source: [ 'https://www.pixiv.net/en/artworks/82163461' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -958,7 +958,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j2kdzm/korone_wants_something/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/0725akaba/status/1310874459289522178'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -970,7 +970,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j3j0db/daily_cocos_fanart_challenge_day_3/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/potadragon/status/1311797720521138177'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -982,7 +982,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j49ub4/daily_cocos_fanart_challenge_day_4/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/potadragon/status/1312251361329725440'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -994,7 +994,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j5b1af/wiggle_wiggle/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/potadragon/status/1312251361329725440'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -1006,7 +1006,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j5f6oa/pain_peko/?utm_medium=android_app&utm_source=share',
           'https://twitter.com/0725akaba/status/1273730708213809152'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -1018,7 +1018,7 @@ module.exports = {
           'https://www.reddit.com/r/Hololive/comments/j5hks8/happy_peko/',
           'https://twitter.com/0725akaba/status/1286305818770436098'
         ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
@@ -1027,7 +1027,7 @@ module.exports = {
         imgPath: 'memes/hololive/Coco_Kanata_maybe_nsfw.jpg',
         title: 'Coco Kanata maybe nsfw.jpg',
         source: [ 'https://www.pixiv.net/en/artworks/83174498' ],
-        tags: [ 'Hololive' ],
+        tags: [ 'hololive' ],
         userPosted: 'Admin_Lumen',
         datePosted: new Date("2020-12-13T13:09:28.089Z")
       },
