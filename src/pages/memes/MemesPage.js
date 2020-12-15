@@ -8,14 +8,27 @@ import {
 import MemeCardList from '../../components/MemeCardList';
 import MemeDetailsPage from './MemeDetailsPage';
 // custom component
-import MemeSearch from '../../components/MemeSearch';
+import MemeTagFilter from '../../components/MemeTagFilter';
 // load meme data
 import { memePosts } from '../../constants/memeConstants';
 
 export default function MemesPage() {
   let match = useRouteMatch();
-
-  console.log(memePosts[0]);
+  
+  const [memeList, setMemeList] = React.useState(memePosts);
+  function filterByTagCallback(tagList) {
+    const filteredMemeList = memePosts.filter((val, idx) => {
+      let noTagInMeme = false;
+      for (const tag of tagList) {
+        if (!val.tags.includes(tag)) {
+          noTagInMeme = true;
+          break;
+        }
+      };
+      return noTagInMeme;
+    });
+    setMemeList(filteredMemeList);
+  }
   
   return (
     <Switch>
@@ -23,9 +36,18 @@ export default function MemesPage() {
         <MemeDetailsPage memeData={memePosts} />
       </Route>
       <Route path={match.path}>
-        <MemeSearch />
-        <MemeCardList memeData={memePosts} />
+        <MemeTagFilter filterByTagCallback={filterByTagCallback} />
+        <MemeCardList memeData={memeList} />
       </Route>
     </Switch>
   )
 }
+/*
+
+  function filterByTitleCallback(filterTitle) {
+    const filteredMemeList = memePosts.filter((val, idx) => {
+      return val.title === filterTitle;
+    });
+    setMemeList(filteredMemeList);
+  }
+*/
