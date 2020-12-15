@@ -30,8 +30,12 @@ Found shitpost resources (gif/jpg/png) from:
 
 - **send memes to other's easily**
 - click on meme & paste URL into Discord which shows the meme
-- power user can favorite memes (& will track in browse storage)
-- power user can see their history of memes
+- user can favorite memes (& will track in browse storage)
+- history of memes page available
+- click on floating action button to see details of meme (source, title, datePosted)
+
+coming soon:
+- select people can upload memes
 
 ## License
 
