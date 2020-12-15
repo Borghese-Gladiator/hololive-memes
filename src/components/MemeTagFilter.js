@@ -53,7 +53,7 @@ export default function MemeSearch(props) {
       </div>
       <div className={classes.flexRowCenter}>
         {
-          ['Smug', 'Angry', 'Sleepy', 'Surprised'].map((val, idx) => {
+          ['smug', 'angry', 'sleepy', 'surprised'].map((val, idx) => {
             // disable if present in tags 
             return !tags.includes(val)
               ?
