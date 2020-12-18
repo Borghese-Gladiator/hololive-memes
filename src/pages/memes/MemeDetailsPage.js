@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   absoluteTopLeft: {
     position: 'absolute',
     left: 30,
-    top: 70 // account for navbar
+    top: 100 // account for navbar
   },
   flexRowCenter: {
     display: 'flex',
@@ -65,7 +65,7 @@ export default function MemeDetailsPage(props) {
           <ArrowBackIcon />
         </Fab>
         <Grid container>
-          <Grid item xs={4}>
+          <Grid item xs={6} sm={5} md={4}>
             <Container>
               <Typography variant="body2" gutterBottom>
                 Posted by: {userPosted}
@@ -83,7 +83,7 @@ export default function MemeDetailsPage(props) {
               }
             </Container>
           </Grid>
-          <Grid item xs={5}>
+          <Grid item xs={6} sm={6} md={5}>
             <Container>
               <Typography variant="h4" gutterBottom>
                 {formattedTitle}
@@ -95,7 +95,7 @@ export default function MemeDetailsPage(props) {
               />
             </Container>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} sm={5} md={3}>
             <MemeFavoriteButton
               path={imgPath}
               title={title}
