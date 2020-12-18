@@ -49,6 +49,7 @@ export default function MemeCardList(props) {
   const numPages = Math.ceil(memeData.length / numItemsPerPage);
   const handlePageChange = (event, value) => {
     setPageNumber(value);
+    window.scrollTo(0, 0); // scroll to top
   };
   const handleSelectPage = (event) => {
     setPageNumber(1); // move back to 1st page
