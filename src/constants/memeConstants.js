@@ -14,8 +14,8 @@ export const memePosts = [
     id: '0001',
     imgPath: 'memes/hololive/Aloe-Shamiko-Edit.gif',
     title: 'Aloe-Shamiko-Edit.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [ 'https://www.reddit.com/r/Hololive/comments/ibnkxi/just_want_to_cheer_up_aloe_and_all_fans_of_her/' ],
+    tags: [ 'hololive', 'panic' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -23,7 +23,7 @@ export const memePosts = [
     id: '0002',
     imgPath: 'memes/hololive/Amelia-Gaming-Rage.gif',
     title: 'Amelia-Gaming-Rage.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [ 'angry' ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -32,7 +32,7 @@ export const memePosts = [
     id: '0003',
     imgPath: 'memes/hololive/Aqua_Dogeza.gif',
     title: 'Aqua Dogeza.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -41,7 +41,7 @@ export const memePosts = [
     id: '0004',
     imgPath: 'memes/hololive/Aqua_Relatable.gif',
     title: 'Aqua Relatable.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [ 'smug' ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -54,7 +54,7 @@ export const memePosts = [
       'https://www.reddit.com/r/Hololive/comments/i8cuo6/baqua/?utm_medium=android_app&utm_source=share',
       'https://twitter.com/minatoaqua/status/1293387419417362433?s=19'
     ],
-    tags: [ 'hololive' ],
+    tags: [ 'hololive', 'smug' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -62,7 +62,7 @@ export const memePosts = [
     id: '0006',
     imgPath: 'memes/hololive/botan-happy.gif',
     title: 'botan-happy.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [ 'smug' ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -86,7 +86,7 @@ export const memePosts = [
       'https://www.reddit.com/r/Hololive/comments/ieol0q/botan_dreaming_sheep/?utm_medium=android_app&utm_source=share',
       'https://twitter.com/felutiahime/status/1294644374018510848'
     ],
-    tags: [ 'hololive' ],
+    tags: [ 'hololive', 'sleepy' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -106,8 +106,8 @@ export const memePosts = [
     id: '0010',
     imgPath: 'memes/hololive/Calli-Derp-Smile-Emoji.png',
     title: 'Calli-Derp-Smile-Emoji.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'smug' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -115,7 +115,7 @@ export const memePosts = [
     id: '0011',
     imgPath: 'memes/hololive/Climbing_Fubuki.jpg',
     title: 'Climbing Fubuki.jpg',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -193,8 +193,8 @@ export const memePosts = [
     id: '0018',
     imgPath: 'memes/hololive/Fubuki_Losing_It.gif',
     title: 'Fubuki Losing It.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'angry' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -202,7 +202,7 @@ export const memePosts = [
     id: '0019',
     imgPath: 'memes/hololive/Fubuki_Questioning.gif',
     title: 'Fubuki Questioning.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -211,8 +211,8 @@ export const memePosts = [
     id: '0020',
     imgPath: 'memes/hololive/Fubuki_Relaxed_Yes_Yes.gif',
     title: 'Fubuki Relaxed Yes Yes.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'smug' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -220,8 +220,8 @@ export const memePosts = [
     id: '0021',
     imgPath: 'memes/hololive/Gura-Crazy-Face-Emoji.png',
     title: 'Gura-Crazy-Face-Emoji.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'angry' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -240,8 +240,8 @@ export const memePosts = [
     id: '0023',
     imgPath: 'memes/hololive/Haato_Panic.gif',
     title: 'Haato Panic.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'panic' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -249,8 +249,8 @@ export const memePosts = [
     id: '0024',
     imgPath: 'memes/hololive/Happy_Fubuki.png',
     title: 'Happy Fubuki.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
-    tags: [ 'hololive' ],
+    source: [  ],
+    tags: [ 'hololive', 'happy' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
   },
@@ -270,7 +270,7 @@ export const memePosts = [
     id: '0026',
     imgPath: 'memes/hololive/Ina-Neutral-Face-Emoji.png',
     title: 'Ina-Neutral-Face-Emoji.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -279,7 +279,7 @@ export const memePosts = [
     id: '0027',
     imgPath: 'memes/hololive/Kiara-Airhead-Smile-Emoji.png',
     title: 'Kiara-Airhead-Smile-Emoji.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -309,7 +309,7 @@ export const memePosts = [
     id: '0030',
     imgPath: 'memes/hololive/Korone_Big_Smile.gif',
     title: 'Korone Big Smile.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -318,7 +318,7 @@ export const memePosts = [
     id: '0031',
     imgPath: 'memes/hololive/Korone_Dancing.gif',
     title: 'Korone Dancing.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive', 'Korone' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -327,7 +327,7 @@ export const memePosts = [
     id: '0032',
     imgPath: 'memes/hololive/Korone_Happy_Doggo.gif',
     title: 'Korone Happy Doggo.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive', 'Korone' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -347,7 +347,7 @@ export const memePosts = [
     id: '0034',
     imgPath: 'memes/hololive/Korone_Yes_I_Am_Jojo.gif',
     title: 'Korone Yes I Am Jojo.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -356,7 +356,7 @@ export const memePosts = [
     id: '0035',
     imgPath: 'memes/hololive/Lamy-Head-Bouncing.gif',
     title: 'Lamy-Head-Bouncing.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -365,7 +365,7 @@ export const memePosts = [
     id: '0036',
     imgPath: 'memes/hololive/lamy_pet_nene.gif',
     title: 'lamy pet nene.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -374,7 +374,7 @@ export const memePosts = [
     id: '0037',
     imgPath: 'memes/hololive/mano-aloe-sad.gif',
     title: 'mano-aloe-sad.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -406,7 +406,7 @@ export const memePosts = [
     id: '0040',
     imgPath: 'memes/hololive/Matsuri_Fubuki_maybe_nsfw.gif',
     title: 'Matsuri Fubuki maybe nsfw.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -426,7 +426,7 @@ export const memePosts = [
     id: '0042',
     imgPath: 'memes/hololive/Minato_Aqua_Road_Rage.gif',
     title: 'Minato Aqua Road Rage.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -458,7 +458,7 @@ export const memePosts = [
     id: '0045',
     imgPath: 'memes/hololive/Nakiri_Happy_Oni.gif',
     title: 'Nakiri Happy Oni.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -467,7 +467,7 @@ export const memePosts = [
     id: '0046',
     imgPath: 'memes/hololive/nene-sweating.gif',
     title: 'nene-sweating.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -523,7 +523,7 @@ export const memePosts = [
     id: '0051',
     imgPath: 'memes/hololive/pekora_smiling.png',
     title: 'pekora smiling.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -543,7 +543,7 @@ export const memePosts = [
     id: '0053',
     imgPath: 'memes/hololive/Polka-Mirage-Movement.gif',
     title: 'Polka-Mirage-Movement.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -552,7 +552,7 @@ export const memePosts = [
     id: '0054',
     imgPath: 'memes/hololive/Scary_Korone_Contemplating.gif',
     title: 'Scary Korone Contemplating.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -561,7 +561,7 @@ export const memePosts = [
     id: '0055',
     imgPath: 'memes/hololive/Shion-Marine-Sleeping.gif',
     title: 'Shion-Marine-Sleeping.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -592,7 +592,7 @@ export const memePosts = [
     id: '0058',
     imgPath: 'memes/hololive/Smug_Nakiri_Yoyo.gif',
     title: 'Smug Nakiri Yoyo.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -601,7 +601,7 @@ export const memePosts = [
     id: '0059',
     imgPath: 'memes/hololive/Subaru_Deciding.gif',
     title: 'Subaru Deciding.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -610,7 +610,7 @@ export const memePosts = [
     id: '0060',
     imgPath: 'memes/hololive/Suisei-Worried.png',
     title: 'Suisei-Worried.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -619,7 +619,7 @@ export const memePosts = [
     id: '0061',
     imgPath: 'memes/hololive/Swinging_Ookami_Mio.gif',
     title: 'Swinging Ookami Mio.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -676,7 +676,7 @@ export const memePosts = [
     id: '0066',
     imgPath: 'memes/hololive/Watame_What_Did_I_Just_See.gif',
     title: 'Watame What Did I Just See.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -685,7 +685,7 @@ export const memePosts = [
     id: '0067',
     imgPath: 'memes/hololive/Watson-Inspect-Emoji.png',
     title: 'Watson-Inspect-Emoji.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'hololive' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -694,7 +694,7 @@ export const memePosts = [
     id: '0068',
     imgPath: 'memes/animemes/Screenshot-2020-11-01-004511.png',
     title: 'Screenshot-2020-11-01-004511.png',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'animeme' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
@@ -727,7 +727,7 @@ export const memePosts = [
     id: '0071',
     imgPath: 'memes/animemes/Yuruyuri-Headpats.gif',
     title: 'Yuruyuri-Headpats.gif',
-    source: [ 'https://www.reddit.com/r/Hololive/comments/kbu0qk/akina/' ],
+    source: [  ],
     tags: [ 'animeme' ],
     userPosted: 'Admin_Lumen',
     datePosted: new Date("2020-12-13T13:09:28.089Z")
