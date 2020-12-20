@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import TextField from "@material-ui/core/TextField";
+import Autocomplete from "@material-ui/lab/Autocomplete";
 
 const useStyles = makeStyles((theme) => ({
   autocomplete: {
@@ -26,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MemeSearch(props) {
   const classes = useStyles();
-  const { filterByTagCallback } = props;
+  const { memeData, filterByTagCallback, filterByIDCallback } = props;
   const [tags, setTags] = React.useState([]);
 
   const handleRemoveClick = (tag) => {
@@ -38,9 +40,32 @@ export default function MemeSearch(props) {
     setTags(oldArray => [...oldArray, tag]); // add item
     filterByTagCallback(tags);
   }
+  
+  const handleChange = (event, newValue) => {
+    // newValue is array of values that fit autocomplete
+    console.log(JSON.stringify(newValue, null, ' '));
+    filterByIDCallback(newValue[0].id);
+  }
 
   return (
     <div className={classes.flexColCenter}>
+      <Autocomplete
+        id="autocomplete"
+        className={classes.autocomplete}
+        multiple
+        options={memeData}
+        getOptionLabel={option => option.title}
+        onChange={handleChange}
+        renderInput={params => (
+          <TextField
+            {...params}
+            variant="outlined"
+            label="Search Memes"
+            margin="normal"
+            fullWidth
+          />
+        )}
+      />
       <div className={classes.flexRowCenter}>
         {
           tags.map((val, idx) => {
@@ -53,7 +78,7 @@ export default function MemeSearch(props) {
       </div>
       <div className={classes.flexRowCenter}>
         {
-          ['smug', 'angry', 'sleepy', 'surprised'].map((val, idx) => {
+          ['smug', 'angry', 'sleepy', 'panic', 'happy'].map((val, idx) => {
             // disable if present in tags 
             return !tags.includes(val)
               ?
@@ -71,9 +96,8 @@ export default function MemeSearch(props) {
   );
 }
 /*
-
-
   const handleChange = (event, newValue) => {
+    console.log(JSON.stringify(newValue, null, ' '));
     filterByTitleCallback(newValue);
   }
   
@@ -94,4 +118,33 @@ export default function MemeSearch(props) {
       />
     )}
   />
+
+  import React from "react";
+  import TextField from "@material-ui/core/TextField";
+  import Autocomplete from "@material-ui/lab/Autocomplete";
+
+  export default function ComboBox() {
+    return (
+      <Autocomplete
+        id="combo-box-demo"
+        options={top100Films}
+        getOptionLabel={option => option.title}
+        style={{ width: 300 }}
+        renderInput={params => (
+          <TextField {...params} label="Combo box" variant="outlined" />
+        )}
+        onChange={(event, newValue) => {
+          console.log(JSON.stringify(newValue, null, ' '));
+        }}
+      />
+    );
+  }
+
+  const top100Films = [
+    { id: 0, title: "The Shawshank Redemption", year: 1994 },
+    { id: 1, title: "The Godfather", year: 1972 },
+    { id: 2, title: "The Godfather: Part II", year: 1974 },
+    { id: 3, title: "The Dark Knight", year: 2008 },
+    { id: 4, title: "12 Angry Men", year: 1957 }
+  ];
 */

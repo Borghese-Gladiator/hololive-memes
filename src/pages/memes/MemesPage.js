@@ -29,6 +29,13 @@ export default function MemesPage() {
     });
     setMemeList(filteredMemeList);
   }
+
+  function filterByIDCallback(id) {
+    console.log(id)
+    const meme = memePosts.find((val) => val.id === id);
+    console.log(meme);
+    setMemeList([meme]);
+  }
   
   return (
     <Switch>
@@ -36,7 +43,7 @@ export default function MemesPage() {
         <MemeDetailsPage memeData={memePosts} />
       </Route>
       <Route path={match.path}>
-        <MemeTagFilter filterByTagCallback={filterByTagCallback} />
+        <MemeTagFilter memeData={memePosts} filterByTagCallback={filterByTagCallback} filterByIDCallback={filterByIDCallback} />
         <MemeCardList memeData={memeList} />
       </Route>
     </Switch>
