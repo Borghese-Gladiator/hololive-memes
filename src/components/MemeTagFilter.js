@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import TextField from "@material-ui/core/TextField";
@@ -28,44 +28,30 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MemeSearch(props) {
   const classes = useStyles();
-  const { memeData, filterByTagCallback, filterByIDCallback } = props;
-  const [tags, setTags] = React.useState([]);
+  const { filterByTagCallback, removeFilterCallback } = props;
+  const [tags, setTags] = useState([]);
 
   const handleRemoveClick = (tag) => {
     setTags(tags.filter((val, idx) => val !== tag )); // remove item
-    filterByTagCallback(tags);
   }
   
   const handleClick = (tag) => {
     setTags(oldArray => [...oldArray, tag]); // add item
-    filterByTagCallback(tags);
   }
-  
-  const handleChange = (event, newValue) => {
-    // newValue is array of values that fit autocomplete
-    console.log(JSON.stringify(newValue, null, ' '));
-    filterByIDCallback(newValue[0].id);
-  }
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    console.log(tags);
+    if (tags.length === 0) {
+      removeFilterCallback();
+    } else {
+      filterByTagCallback(tags);
+    }
+  });
+
 
   return (
     <div className={classes.flexColCenter}>
-      <Autocomplete
-        id="autocomplete"
-        className={classes.autocomplete}
-        multiple
-        options={memeData}
-        getOptionLabel={option => option.title}
-        onChange={handleChange}
-        renderInput={params => (
-          <TextField
-            {...params}
-            variant="outlined"
-            label="Search Memes"
-            margin="normal"
-            fullWidth
-          />
-        )}
-      />
       <div className={classes.flexRowCenter}>
         {
           tags.map((val, idx) => {

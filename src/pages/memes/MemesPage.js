@@ -9,6 +9,7 @@ import MemeCardList from '../../components/MemeCardList';
 import MemeDetailsPage from './MemeDetailsPage';
 // custom component
 import MemeTagFilter from '../../components/MemeTagFilter';
+import MemeAutoComplete from '../../components/MemeAutoComplete';
 // load meme data
 import { memePosts } from '../../constants/memeConstants';
 
@@ -31,19 +32,22 @@ export default function MemesPage() {
   }
 
   function filterByIDCallback(id) {
-    console.log(id)
     const meme = memePosts.find((val) => val.id === id);
-    console.log(meme);
     setMemeList([meme]);
   }
   
+  function removeFilterCallback() {
+    setMemeList(memePosts);
+  }
+
   return (
     <Switch>
       <Route path={`${match.path}/:memeID`}>
         <MemeDetailsPage memeData={memePosts} />
       </Route>
       <Route path={match.path}>
-        <MemeTagFilter memeData={memePosts} filterByTagCallback={filterByTagCallback} filterByIDCallback={filterByIDCallback} />
+        <MemeAutoComplete memeData={memePosts} filterByIDCallback={filterByIDCallback} removeFilterCallback={removeFilterCallback} />
+        <MemeTagFilter filterByTagCallback={filterByTagCallback} removeFilterCallback={removeFilterCallback} />
         <MemeCardList memeData={memeList} />
       </Route>
     </Switch>
