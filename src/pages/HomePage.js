@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(60),
     width: theme.spacing(60),
   },
-  landingButtons: {
+  landingBtns: {
     paddingTop: theme.spacing(10),
     paddingRight: theme.spacing(30),
     paddingBottom: theme.spacing(15)
@@ -47,13 +47,13 @@ const useStyles = makeStyles((theme) => ({
 export default function HomePage(props) {
   const classes = useStyles();
   const { t, id } = props;
-  const [hololiveArrowShown, setHololiveArrowShown] = useState(false);
-  const hololiveButton = hololiveArrowShown ? <>{t("home.landingHololiveButton")} <ArrowRightAltIcon /></> : <>{t("home.landingHololiveButton")}</>
+  const [btnArrowShown, setBtnArrowShown] = useState(false);
+  const landingBtn = btnArrowShown ? <>{t("home.landingBtn")} <ArrowRightAltIcon /></> : <>{t("home.landingBtn")}</>
 
   return (
     <div id={id}>
       <div className={clsx(classes.landingRoot, classes.columnFlex)} style={{ backgroundImage: `url(${MyBackgroundImg})` }}>
-        <Container className={clsx(classes.landingButtons, classes.columnFlex)}>
+        <Container className={clsx(classes.landingBtns, classes.columnFlex)}>
           <img src={MemeImg} alt="meme above meme button" className={classes.image} />
           <br />
           <Grid container spacing={2} justify="center">
@@ -66,10 +66,10 @@ export default function HomePage(props) {
                   className={classes.primaryButton}
                   variant="contained"
                   color="primary"
-                  onMouseEnter={() => setHololiveArrowShown(true)}
-                  onMouseLeave={() => setHololiveArrowShown(false)}
+                  onMouseEnter={() => setBtnArrowShown(true)}
+                  onMouseLeave={() => setBtnArrowShown(false)}
                 >
-                  {hololiveButton}
+                  {landingBtn}
                 </Button>
               </CustomLink>
             </Grid>
