@@ -3,7 +3,7 @@ import { withTranslation } from 'react-i18next'; // Translation with i18n
 import { HashRouter, Route } from "react-router-dom"; // client-side routing
 // Custom components
 import NavMenu from './components/NavMenu/GuestNavMenu';
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 // pages
 import HomePage from './pages/HomePage';
@@ -46,6 +46,7 @@ function App(props) {
           <Route path="/memes" render={(props) => <MemesPage {...props} t={t} /> } />
           <Route path="/history" render={(props) => <HistoryPage {...props} t={t} /> } />
           <Route path="/favorites" render={(props) => <FavoritesPage {...props} t={t} /> } />          
+          <Footer />
         </NavMenu>
       </div>
     </HashRouter>

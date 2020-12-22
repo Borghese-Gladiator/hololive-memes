@@ -41,28 +41,10 @@ export default function Footer(props) {
   const { iconLabelList } = props;
   return (
     <footer className={classes.footer}>
-      <Typography variant="h6" gutterBottom>
-        Contact Info
-      </Typography>
       <Typography variant="subtitle1" gutterBottom>
         Disclaimer: This is a fanmade website and is not affiliated with Hololive.
       </Typography>
-      <List
-        component="nav"
-        className={classes.listRoot}
-      >
-        {iconLabelList.map((obj, idx) => (
-          <ListItem button key={`${obj.label} ${idx}`}>
-            <ListItemIcon>
-              {obj.icon()}
-            </ListItemIcon>
-            <ListItemText secondary={obj.label} />
-          </ListItem>
-        ))}
-        <ListItem button>
-          <Copyright />
-        </ListItem>
-      </List>
+      <Copyright />
     </footer>
   );
 }
