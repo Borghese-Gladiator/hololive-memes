@@ -10,7 +10,7 @@
         },
         "home": {
             "landing": "HoloMeme (ホロミム)",
-            "landingHololiveButton": "ホロライブ",
+            "landingBtn": "ミームを見せて",
             "landingAnimemeButton": "アニメのミム",
             "landingQuote": "\"Words are memes that can be pronounced\"",
             "landingQuoteAuthor": "Shameless Plagiarizer",
