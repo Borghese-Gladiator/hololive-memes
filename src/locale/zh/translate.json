@@ -1,53 +1,42 @@
 {
     "translations": {
         "navMenu": {
-            "register": "注册",
-            "signIn": "登入",
-            "home": "首页",
-            "hololive": "HOLOLIVE MEMES",
-            "animeme": "ANIMEMES",
-            "history": "最近浏览过的"
+            "dropdownLabel": "Open Saved",
+            "dropdownHistoryRoute": "History" ,
+            "dropdownFavoriteRoute": "Favorites"
+        },
+        "footer": {
+            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "copyrightLabel": "Copyright ©"
         },
         "home": {
-            "landing": "HoloMeme",
-            "landingHololiveButton": "Hololive",
-            "landingAnimemeButton": "Animemes",
-            "landingQuote": "\"Words are memes that can be pronounced\"",
-            "landingQuoteAuthor": "Shameless Plagiarizer",
-            "contactTitle": "联络我们",
-            "messageTitle": "联络我们",
-            "messageName": "名字",
-            "messageEmail": "电子信箱",
-            "messageText": "信息",
-            "messageButtonText": "发信息"
+            "landingBtn": "给我看么么"
         },
-        "forgotPassword": {
-            "title": "申请一个新的密码",
-            "email": "电子信箱",
-            "submit": "发送"
+        "memePage": {
+            "autocompletePlaceholder": "Search Memes",
+            "memePerPageLabel": "Memes per Page",
+            "filterAll": "All",
+            "filterSmug": "Smug",
+            "filterAngry": "Angry",
+            "filterSleepy": "Sleepy",
+            "filterPanic": "Panic",
+            "filterHappy": "Happy"
         },
-        "register": {
-            "title": "注册",
-            "email": "电子信箱",
-            "password": "密码",
-            "registerButton": "注册",
-            "forgotPass": "忘记密码?",
-            "haveAcctText": "有帐号？ 请登录"
+        "memeDetailsPage": {
+            "postedByLabel": "Posted by: ",
+            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "sourceLabel": "Source",
+            "favoriteBtn": "Favorite",
+            "noSourceInfoLabel": "No source information"
         },
-        "signin": {
-            "title": "登入",
-            "email": "电子信箱",
-            "password": "密码",
-            "rememberMe": "记得我",
-            "signInButton": "登入",
-            "forgotPass": "忘了密码?",
-            "noAccountText": "没有帐号？ 请注册?"
+        "historyPage": {
+            "title": "History",
+            "noMemeLabel": "No memes in history"
         },
-        "animemes": {
-            "title": "ANIMEMES"
-        },
-        "hololive": {
-            "title": "HOLOLIVE MEMES"
+        "favoritesPage": {
+            "title": "Favorites",
+            "noMemeLabel": "No memes in favorites"
         }
     }
 }
+            

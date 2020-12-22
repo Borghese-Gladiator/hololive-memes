@@ -1,53 +1,41 @@
 {
     "translations": {
         "navMenu": {
-            "register": "INSCRIBIR",
-            "signIn": "REGISTRARSE",
-            "home": "INICIO",
-            "hololive": "HOLOLIVE MEMES",
-            "animeme": "ANIMEMES",
-            "history": "HISTORIA"
+            "dropdownLabel": "Open Saved",
+            "dropdownHistoryRoute": "History" ,
+            "dropdownFavoriteRoute": "Favorites"
+        },
+        "footer": {
+            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "copyrightLabel": "Copyright ©"
         },
         "home": {
-            "landing": "HoloMeme",
-            "landingHololiveButton": "Hololive",
-            "landingAnimemeButton": "Animemes",
-            "landingQuote": "\"Words are memes that can be pronounced\"",
-            "landingQuoteAuthor": "Shameless Plagiarizer",
-            "contactTitle": "CONTACTARNOS",
-            "messageTitle": "Mensaje",
-            "messageName": "Nombre",
-            "messageEmail": "Email",
-            "messageText": "Mensaje",
-            "messageButtonText": "Envia Mensaje"
+            "landingBtn": "muéstrame los memes"
         },
-        "forgotPassword": {
-            "title": "Recupera contraseña",
-            "email": "Email",
-            "submit": "Envia"
+        "memePage": {
+            "autocompletePlaceholder": "Search Memes",
+            "memePerPageLabel": "Memes per Page",
+            "filterAll": "All",
+            "filterSmug": "Smug",
+            "filterAngry": "Angry",
+            "filterSleepy": "Sleepy",
+            "filterPanic": "Panic",
+            "filterHappy": "Happy"
         },
-        "register": {
-            "title": "Registro",
-            "email": "Email",
-            "password": "Contraseña",
-            "registerButton": "Registro",
-            "forgotPass": "Se te olvidó tu contraseña?",
-            "haveAcctText": "¿Tiene una cuenta? Inicia sesión"
+        "memeDetailsPage": {
+            "postedByLabel": "Posted by: ",
+            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "sourceLabel": "Source",
+            "favoriteBtn": "Favorite",
+            "noSourceInfoLabel": "No source information"
         },
-        "signin": {
-            "title": "Identifícate",
-            "email": "Email",
-            "password": "Contraseña",
-            "rememberMe": "Remember me",
-            "signInButton": "Identifícate",
-            "forgotPass": "Se te olvidó tu contraseña?",
-            "noAccountText": "¿No tiene una cuenta? Registra aquí"
+        "historyPage": {
+            "title": "History",
+            "noMemeLabel": "No memes in history"
         },
-        "animemes": {
-            "title": "ANIMEMES"
-        },
-        "hololive": {
-            "title": "HOLOLIVE MEMES"
+        "favoritesPage": {
+            "title": "Favorites",
+            "noMemeLabel": "No memes in favorites"
         }
     }
 }

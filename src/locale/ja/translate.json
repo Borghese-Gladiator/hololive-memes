@@ -1,53 +1,41 @@
 {
     "translations": {
         "navMenu": {
-            "register": "新規会員登録",
-            "signIn": "ログイン",
-            "home": "HOME",
-            "hololive": "ホロライブのミム",
-            "animeme": "アニメのミム",
-            "history": "HISTORY"
+            "dropdownLabel": "Open Saved",
+            "dropdownHistoryRoute": "History" ,
+            "dropdownFavoriteRoute": "Favorites"
+        },
+        "footer": {
+            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "copyrightLabel": "Copyright ©"
         },
         "home": {
-            "landing": "HoloMeme (ホロミム)",
-            "landingBtn": "ミームを見せて",
-            "landingAnimemeButton": "アニメのミム",
-            "landingQuote": "\"Words are memes that can be pronounced\"",
-            "landingQuoteAuthor": "Shameless Plagiarizer",
-            "contactTitle": "お問い合わせする",
-            "messageTitle": "ヘルプでは解決できないご質問は、こちらからご連絡ください",
-            "messageName": "名前",
-            "messageEmail": "メールアドレス",
-            "messageText": "メッセージ",
-            "messageButtonText": "メッセージを送る"
+            "landingBtn": "ミームを見せて"
         },
-        "forgotPassword": {
-            "title": "パスワードを忘れた / ログインできない",
-            "email": "メールアドレス",
-            "submit": "送る"
+        "memePage": {
+            "autocompletePlaceholder": "Search Memes",
+            "memePerPageLabel": "Memes per Page",
+            "filterAll": "All",
+            "filterSmug": "Smug",
+            "filterAngry": "Angry",
+            "filterSleepy": "Sleepy",
+            "filterPanic": "Panic",
+            "filterHappy": "Happy"
         },
-        "register": {
-            "title": "新規会員登録",
-            "email": "メールアドレス",
-            "password": "パスワード",
-            "registerButton": "新規会員登録",
-            "forgotPass": "パスワードを忘れた?",
-            "haveAcctText": "すでにアカウントをお持ちですか？ ここでログインする"
+        "memeDetailsPage": {
+            "postedByLabel": "Posted by: ",
+            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "sourceLabel": "Source",
+            "favoriteBtn": "Favorite",
+            "noSourceInfoLabel": "No source information"
         },
-        "signin": {
-            "title": "ログイン",
-            "email": "メールアドレス",
-            "password": "パスワード",
-            "rememberMe": "次回もこ のログイン名 を使 用する",
-            "signInButton": "ログイン",
-            "forgotPass": "パスワードを忘れた?",
-            "noAccountText": "はじめての方は登録手続きへお進みください。"
+        "historyPage": {
+            "title": "History",
+            "noMemeLabel": "No memes in history"
         },
-        "animemes": {
-            "title": "アニメのミム"
-        },
-        "hololive": {
-            "title": "ホロライブのミム"
+        "favoritesPage": {
+            "title": "Favorites",
+            "noMemeLabel": "No memes in favorites"
         }
     }
 }
