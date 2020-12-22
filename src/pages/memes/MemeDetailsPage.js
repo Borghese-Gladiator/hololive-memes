@@ -77,9 +77,13 @@ export default function MemeDetailsPage(props) {
                 Source
               </Typography>
               {
-                source.map((val, idx) => {
-                  return <SocialExternalLink key={`${val} ${idx}`} fullURL={val} />
-                })
+                source.length === 0 
+                ?
+                  <div>No source information</div>
+                :
+                  source.map((val, idx) => {
+                    return <SocialExternalLink key={`${val} ${idx}`} fullURL={val} />
+                  })
               }
             </Container>
           </Grid>
