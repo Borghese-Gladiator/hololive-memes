@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function GuestNavMenu(props) {
   const classes = useStyles();
-  const { logo, langCallback } = props;
+  const { logo, langCallback, t } = props;
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
   const [backdropOpen, setBackdropOpen] = React.useState(false);
@@ -95,7 +95,7 @@ export default function GuestNavMenu(props) {
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
-
+  
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
     <Menu
@@ -110,12 +110,12 @@ export default function GuestNavMenu(props) {
       
       <MenuItem onClick={handleMenuClose}>
         <CustomLink ariaLabel={`Link to history page`} to={'/history'}>
-          History
+          {t("navbar.dropdownHistoryRoute")}
         </CustomLink>
       </MenuItem>
       <MenuItem onClick={handleMenuClose}>
         <CustomLink ariaLabel={`Link to favorites page`} to={'/favorites'}>
-          Favorites
+          {t("navbar.dropdownFavoriteRoute")}
         </CustomLink>
       </MenuItem>
     </Menu>
@@ -141,7 +141,7 @@ export default function GuestNavMenu(props) {
         >
           { anchorEl ? <ChangeHistoryIcon /> : <DetailsIcon /> }
         </IconButton>
-        <p>Open Saved</p>
+          {t("navbar.dropdownLabel")}
       </MenuItem>
     </Menu>
   );
@@ -177,7 +177,7 @@ export default function GuestNavMenu(props) {
               style={{color: 'inherit'}}
             >
               <Typography variant="button" display="block" gutterBottom>
-                Open Saved
+                {t("navbar.dropdownLabel")}
               </Typography>
               { anchorEl ? <ChangeHistoryIcon /> : <DetailsIcon /> }
             </Button>

@@ -1,13 +1,13 @@
 {
     "translations": {
-        "navMenu": {
+        "navbar": {
             "dropdownLabel": "Open Saved",
             "dropdownHistoryRoute": "History" ,
             "dropdownFavoriteRoute": "Favorites"
         },
         "footer": {
             "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
-            "copyrightLabel": "Copyright ©"
+            "copyrightLabel": "Copyright © "
         },
         "home": {
             "landingBtn": "show me the memes"

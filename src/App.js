@@ -41,12 +41,12 @@ function App(props) {
   return (
     <HashRouter initialIndex={0}>
       <div style={{backgroundColor: "#DAE3E7"}}>
-        <NavMenu logo={logo} langCallback={langCallback}>
+        <NavMenu logo={logo} langCallback={langCallback} t={t}>
           <Route exact path="/" render={(props) => <HomePage {...props} t={t} /> } />
           <Route path="/memes" render={(props) => <MemesPage {...props} t={t} /> } />
           <Route path="/history" render={(props) => <HistoryPage {...props} t={t} /> } />
           <Route path="/favorites" render={(props) => <FavoritesPage {...props} t={t} /> } />          
-          <Footer />
+          <Footer t={t} />
         </NavMenu>
       </div>
     </HashRouter>
