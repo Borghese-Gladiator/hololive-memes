@@ -13,7 +13,7 @@
             "landingBtn": "show me the memes"
         },
         "memePage": {
-            "autocompletePlaceholder": "Search Memes",
+            "autcompleteLabel": "Search Memes",
             "memePerPageLabel": "Memes per Page",
             "filterAll": "All",
             "filterSmug": "Smug",
