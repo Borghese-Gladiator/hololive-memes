@@ -3,7 +3,8 @@ import Container from '@material-ui/core/Container';
 // custom components
 import MemeCardList from '../components/MemeCardList';
 
-export default function HistoryPage() {
+export default function HistoryPage(props) {
+  const { t } = props;
   const [memeList, setMemeList] = useState([]);
 
   // Similar to componentDidMount and componentDidUpdate:
@@ -18,12 +19,12 @@ export default function HistoryPage() {
 
   return (
     <Container>
-      <h1 style={{textAlign: "center"}}>History</h1>
+      <h1 style={{textAlign: "center"}}>{t('historyPage.title')}</h1>
       {
         memeList && memeList.length > 0
           ? <MemeCardList memeData={memeList} />
           : <Container>
-              <h4>No memes in history</h4>
+              <h4>{t('historyPage.noMemeLabel')}</h4>
             </Container>
       }
     </Container>
