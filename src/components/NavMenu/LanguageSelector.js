@@ -24,7 +24,10 @@ const colorInheritTranslateIcon = () => { return (<TranslateIcon style={{color:"
 export default function LanguageSelector(props) {
   const { onSelectLanguage } = props;
   const classes = useStyles();
-  const [lang, setLang] = React.useState('en');
+  //detect the language preference of the user's browser
+  const userLanguage = window.navigator.userLanguage || window.navigator.language || 'en';
+  const defaultLang = userLanguage.length <= 2 ? userLanguage : userLanguage.substring(0, 2);
+  const [lang, setLang] = React.useState(defaultLang);
 
   const handleChange = (event) => {
     setLang(event.target.value);
