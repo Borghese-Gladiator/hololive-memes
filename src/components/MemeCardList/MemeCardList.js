@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MemeCardList(props) {
   const classes = useStyles();
-  const { id, memeData } = props;
+  const { id, memeData, t } = props;
   // initialize pagination constants
   const [numItemsPerPage, setNumItemsPerPage] = React.useState(30);
   const [pageNumber, setPageNumber] = React.useState(1);
@@ -60,7 +60,7 @@ export default function MemeCardList(props) {
     <Container id={id} className={classes.root}>
       <div className={classes.rightColumnFlex}>
         <FormControl className={classes.formControl}>
-          <InputLabel id="demo-simple-select-label">Memes per Page</InputLabel>
+          <InputLabel id="demo-simple-select-label">{t('memePage.memePerPageLabel')}</InputLabel>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"

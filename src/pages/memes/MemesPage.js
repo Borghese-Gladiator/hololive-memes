@@ -47,10 +47,11 @@ const FILTER_MAP = {
 };
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 
-export default function MemesPage() {
+export default function MemesPage(props) {
   let match = useRouteMatch();
   
   const classes = useStyles();
+  const { t } = props;
   const [filter, setFilter] = useState("All");
   const [IDListFilter, setIDListFilter] = useState("");
 
@@ -104,7 +105,7 @@ export default function MemesPage() {
               <TextField
                 {...params}
                 variant="outlined"
-                label="Search Memes"
+                label={t("memePage.autcompleteLabel")}
                 margin="normal"
                 fullWidth
               />
@@ -113,7 +114,7 @@ export default function MemesPage() {
           <div className={classes.flexRowCenter}>
             {filterList}
           </div>
-          <MemeCardList memeData={filteredMemeList} />
+          <MemeCardList memeData={filteredMemeList} t={t} />
         </div>
       </Route>
     </Switch>

@@ -37,10 +37,10 @@ const useStyles = makeStyles((theme) => ({
 
 
 export default function MemeDetailsPage(props) {
+  let { memeID } = useParams(); // memeID from URL
+
   const classes = useStyles();
-  const { memeData } = props;
-  // memeID from URL
-  let { memeID } = useParams();
+  const { memeData, t } = props;
   const memePost = memeData.find(meme => meme.id === memeID);
   const { id, imgPath, title, source, tags, userPosted, datePosted } = memePost;
   
@@ -74,12 +74,12 @@ export default function MemeDetailsPage(props) {
                 Date Posted (EST): {dateString}
               </Typography>
               <Typography variant="h6" gutterBottom>
-                Source
+                {t("memeDetailsPage.sourceLabel")}
               </Typography>
               {
                 source.length === 0 
                 ?
-                  <div>No source information</div>
+                  <div>{t("memeDetailsPage.noSourceInfoLabel")}</div>
                 :
                   source.map((val, idx) => {
                     return <SocialExternalLink key={`${val} ${idx}`} fullURL={val} />
