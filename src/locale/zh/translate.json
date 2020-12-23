@@ -1,41 +1,41 @@
 {
     "translations": {
-        "navMenu": {
-            "dropdownLabel": "Open Saved",
-            "dropdownHistoryRoute": "History" ,
-            "dropdownFavoriteRoute": "Favorites"
+        "navbar": {
+            "dropdownLabel": "么么",
+            "dropdownHistoryRoute": "历史" ,
+            "dropdownFavoriteRoute": "最爱的"
         },
         "footer": {
-            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "disclaimerLabel": "免责声明：这是一个粉丝制作的网站，与Hololive无关。",
             "copyrightLabel": "Copyright ©"
         },
         "home": {
             "landingBtn": "给我看么么"
         },
         "memePage": {
-            "autocompletePlaceholder": "Search Memes",
-            "memePerPageLabel": "Memes per Page",
-            "filterAll": "All",
-            "filterSmug": "Smug",
-            "filterAngry": "Angry",
-            "filterSleepy": "Sleepy",
-            "filterPanic": "Panic",
-            "filterHappy": "Happy"
+            "autocompletePlaceholder": "找么么",
+            "memePerPageLabel": "每页几个么么",
+            "filterAll": "所有",
+            "filterSmug": "自以为是",
+            "filterAngry": "愤怒",
+            "filterSleepy": "困",
+            "filterPanic": "恐慌",
+            "filterHappy": "快乐"
         },
         "memeDetailsPage": {
             "postedByLabel": "Posted by: ",
             "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
-            "sourceLabel": "Source",
-            "favoriteBtn": "Favorite",
-            "noSourceInfoLabel": "No source information"
+            "sourceLabel": "资源",
+            "favoriteBtn": "最爱的么么",
+            "noSourceInfoLabel": "没有源信息"
         },
         "historyPage": {
-            "title": "History",
-            "noMemeLabel": "No memes in history"
+            "title": "历史",
+            "noMemeLabel": "没有么么"
         },
         "favoritesPage": {
-            "title": "Favorites",
-            "noMemeLabel": "No memes in favorites"
+            "title": "最爱的么么",
+            "noMemeLabel": "没有最爱的么么"
         }
     }
 }
