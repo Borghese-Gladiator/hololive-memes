@@ -46,8 +46,9 @@ export default function MemeDetailsPage(props) {
   
   const formattedTitle = title.split('.')[0].replace(/^.*[\\/]/, '').replace(/[_-]+/g, ' ');
   
+  const userLanguage = window.navigator.userLanguage || window.navigator.language || 'en-US';
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const dateString = datePosted.toLocaleDateString("en-US", options);
+  const dateString = datePosted.toLocaleDateString(userLanguage, options);
 
   const handleBackClick = () => {
     window.history.back()
@@ -68,10 +69,10 @@ export default function MemeDetailsPage(props) {
           <Grid item xs={6} sm={5} md={4}>
             <Container>
               <Typography variant="body2" gutterBottom>
-                Posted by: {userPosted}
+                {`${t("memeDetailsPage.postedByLabel")}: ${userPosted}`}
               </Typography>
               <Typography variant="body2" gutterBottom>
-                Date Posted (EST): {dateString}
+                {`${t("memeDetailsPage.datePostedLabel")}: ${dateString}`}
               </Typography>
               <Typography variant="h6" gutterBottom>
                 {t("memeDetailsPage.sourceLabel")}
