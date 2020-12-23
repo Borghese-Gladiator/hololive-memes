@@ -45,7 +45,7 @@ export default function LanguageSelector(props) {
       >
         <MenuItem value={'en'}>English</MenuItem>
         <MenuItem value={'zh'}>中文</MenuItem>
-        <MenuItem value={'jp'}>日本語</MenuItem>
+        <MenuItem value={'ja'}>日本語</MenuItem>
         <MenuItem value={'es'}>Español</MenuItem>
       </Select>
     </FormControl>
