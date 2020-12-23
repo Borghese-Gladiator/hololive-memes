@@ -90,7 +90,7 @@ export default function MemesPage(props) {
   return (
     <Switch>
       <Route path={`${match.path}/:memeID`}>
-        <MemeDetailsPage memeData={memePosts} />
+        <MemeDetailsPage memeData={memePosts} t={t} />
       </Route>
       <Route path={match.path}>
         <div className={classes.flexColCenter}>
