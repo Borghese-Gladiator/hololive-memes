@@ -1,41 +1,41 @@
 {
     "translations": {
         "navMenu": {
-            "dropdownLabel": "Open Saved",
-            "dropdownHistoryRoute": "History" ,
-            "dropdownFavoriteRoute": "Favorites"
+            "dropdownLabel": "Abierto Guardado",
+            "dropdownHistoryRoute": "Historia" ,
+            "dropdownFavoriteRoute": "Favoritos"
         },
         "footer": {
-            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "disclaimerLabel": "Descargo de responsabilidad: este es un sitio web creado por fans y no está afiliado a Hololive.",
             "copyrightLabel": "Copyright ©"
         },
         "home": {
             "landingBtn": "muéstrame los memes"
         },
         "memePage": {
-            "autocompletePlaceholder": "Search Memes",
-            "memePerPageLabel": "Memes per Page",
-            "filterAll": "All",
-            "filterSmug": "Smug",
-            "filterAngry": "Angry",
-            "filterSleepy": "Sleepy",
-            "filterPanic": "Panic",
-            "filterHappy": "Happy"
+            "autocompletePlaceholder": "busca memes",
+            "memePerPageLabel": "memes por página",
+            "filterAll": "todos",
+            "filterSmug": "presumido",
+            "filterAngry": "enojado",
+            "filterSleepy": "soñoliento",
+            "filterPanic": "pánico",
+            "filterHappy": "feliz"
         },
         "memeDetailsPage": {
             "postedByLabel": "Posted by: ",
             "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
-            "sourceLabel": "Source",
-            "favoriteBtn": "Favorite",
-            "noSourceInfoLabel": "No source information"
+            "sourceLabel": "fuente",
+            "favoriteBtn": "favorito",
+            "noSourceInfoLabel": "No hay información fuente"
         },
         "historyPage": {
-            "title": "History",
-            "noMemeLabel": "No memes in history"
+            "title": "Historia",
+            "noMemeLabel": "No hay memes en la historia"
         },
         "favoritesPage": {
-            "title": "Favorites",
-            "noMemeLabel": "No memes in favorites"
+            "title": "Memes Favoritos",
+            "noMemeLabel": "no hay memes en los favoritos"
         }
     }
 }
