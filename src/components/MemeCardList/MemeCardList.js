@@ -44,7 +44,7 @@ export default function MemeCardList(props) {
   const classes = useStyles();
   const { id, memeData, t } = props;
   // initialize pagination constants
-  const [numItemsPerPage, setNumItemsPerPage] = React.useState(30);
+  const [numItemsPerPage, setNumItemsPerPage] = React.useState(20);
   const [pageNumber, setPageNumber] = React.useState(1);
   const numPages = Math.ceil(memeData.length / numItemsPerPage);
   const handlePageChange = (event, value) => {
