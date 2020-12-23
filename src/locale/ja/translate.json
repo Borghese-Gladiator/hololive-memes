@@ -1,26 +1,26 @@
 {
     "translations": {
-        "navMenu": {
-            "dropdownLabel": "Open Saved",
-            "dropdownHistoryRoute": "History" ,
-            "dropdownFavoriteRoute": "Favorites"
+        "navbar": {
+            "dropdownLabel": "保存を開く",
+            "dropdownHistoryRoute": "歴史" ,
+            "dropdownFavoriteRoute": "お気に入りのみむ"
         },
         "footer": {
-            "disclaimerLabel": "Disclaimer: This is a fanmade website and is not affiliated with Hololive.",
+            "disclaimerLabel": "免責事項：これはファンメイドのサイトであり、ホロライブとは関係ありません。",
             "copyrightLabel": "Copyright ©"
         },
         "home": {
             "landingBtn": "ミームを見せて"
         },
         "memePage": {
-            "autocompletePlaceholder": "Search Memes",
-            "memePerPageLabel": "Memes per Page",
-            "filterAll": "All",
-            "filterSmug": "Smug",
-            "filterAngry": "Angry",
-            "filterSleepy": "Sleepy",
-            "filterPanic": "Panic",
-            "filterHappy": "Happy"
+            "autocompletePlaceholder": "ミームを探す",
+            "memePerPageLabel": "1ページあたりのミーム",
+            "filterAll": "すべて",
+            "filterSmug": "ドヤ顔",
+            "filterAngry": "怒った",
+            "filterSleepy": "眠い",
+            "filterPanic": "パニック",
+            "filterHappy": "嬉しい"
         },
         "memeDetailsPage": {
             "postedByLabel": "Posted by: ",
@@ -30,12 +30,12 @@
             "noSourceInfoLabel": "No source information"
         },
         "historyPage": {
-            "title": "History",
-            "noMemeLabel": "No memes in history"
+            "title": "歴史",
+            "noMemeLabel": "歴史にミームはない"
         },
         "favoritesPage": {
-            "title": "Favorites",
-            "noMemeLabel": "No memes in favorites"
+            "title": "お気に入り",
+            "noMemeLabel": "お気に入りにミームはありません"
         }
     }
 }
