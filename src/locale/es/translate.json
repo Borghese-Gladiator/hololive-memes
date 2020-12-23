@@ -1,6 +1,6 @@
 {
     "translations": {
-        "navMenu": {
+        "navbar": {
             "dropdownLabel": "Abierto Guardado",
             "dropdownHistoryRoute": "Historia" ,
             "dropdownFavoriteRoute": "Favoritos"
