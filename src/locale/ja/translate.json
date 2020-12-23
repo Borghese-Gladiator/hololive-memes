@@ -25,9 +25,9 @@
         "memeDetailsPage": {
             "postedByLabel": "Posted by: ",
             "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
-            "sourceLabel": "Source",
-            "favoriteBtn": "Favorite",
-            "noSourceInfoLabel": "No source information"
+            "sourceLabel": "ソース",
+            "favoriteBtn": "お気に入り",
+            "noSourceInfoLabel": "ソース情報なし"
         },
         "historyPage": {
             "title": "歴史",
