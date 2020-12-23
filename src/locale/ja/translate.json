@@ -23,8 +23,8 @@
             "filterHappy": "嬉しい"
         },
         "memeDetailsPage": {
-            "postedByLabel": "Posted by: ",
-            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "postedByLabel": "投稿者",
+            "datePostedLabel": "投稿日",
             "sourceLabel": "ソース",
             "favoriteBtn": "お気に入り",
             "noSourceInfoLabel": "ソース情報なし"

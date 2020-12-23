@@ -23,8 +23,8 @@
             "filterHappy": "Happy"
         },
         "memeDetailsPage": {
-            "postedByLabel": "Posted by: ",
-            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "postedByLabel": "Posted by",
+            "datePostedLabel": "Date Posted",
             "sourceLabel": "Source",
             "favoriteBtn": "Favorite",
             "noSourceInfoLabel": "No source information"

@@ -23,8 +23,8 @@
             "filterHappy": "快乐"
         },
         "memeDetailsPage": {
-            "postedByLabel": "Posted by: ",
-            "datePosted": "Date Posted (EST): {{date, MM/DD/YYYY}}",
+            "postedByLabel": "张贴者",
+            "datePostedLabel": "张贴的日期",
             "sourceLabel": "资源",
             "favoriteBtn": "最爱的么么",
             "noSourceInfoLabel": "没有源信息"
