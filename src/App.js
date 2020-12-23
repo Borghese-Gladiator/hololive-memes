@@ -2,7 +2,7 @@ import React from 'react'
 import { withTranslation } from 'react-i18next'; // Translation with i18n
 import { HashRouter, Route } from "react-router-dom"; // client-side routing
 // Custom components
-import NavMenu from './components/NavMenu/GuestNavMenu';
+import NavMenu from './components/NavMenu';
 import Footer from './components/Footer'
 
 // pages
